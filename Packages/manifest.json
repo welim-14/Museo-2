@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "com.unity.collab-proxy": "2.12.4",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.20.0",
     "com.unity.multiplayer.center": "1.0.1",
+    "com.unity.probuilder": "6.1.2",
     "com.unity.sdk.linux-x86_64": "1.1.0",
     "com.unity.timeline": "1.8.12",
     "com.unity.toolchain.linux-x86_64-linux": "1.1.0",
