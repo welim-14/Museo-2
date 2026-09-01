@@ -244,6 +244,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3754336061496092874, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_text
+      value: "BLEACH TE ENSE\xD1A A AGRADECERLE A LAS PERSONAS QUE SIEMPRE TE ESTAN
+        APOYANDO"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754336061496092874, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_fontSize
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22461,6 +22470,67 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1148363842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6158969
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068219471120392714, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7345409930163285015, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_Name
+      value: Pantalla
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732990288078629183, guid: 79d755906b95edb499db433c6252c391, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 378779963e8195649b3705216675711c, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79d755906b95edb499db433c6252c391, type: 3}
 --- !u!43 &1151338476
 Mesh:
   m_ObjectHideFlags: 0
@@ -41961,6 +42031,71 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+--- !u!1001 &2141066695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Name
+      value: Letrero 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.28902793
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3886001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.423019
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754336061496092874, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_text
+      value: ZONA DE BLEACH
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754336061496092874, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_fontSize
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
 --- !u!1001 &1540638079283293191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42121,3 +42256,5 @@ SceneRoots:
   - {fileID: 2032965255}
   - {fileID: 1645408533}
   - {fileID: 190710001}
+  - {fileID: 1148363842}
+  - {fileID: 2141066695}
