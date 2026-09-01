@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Museo.slnx"
+    "dotnet.defaultSolution": "Museo-2.slnx"
 }
