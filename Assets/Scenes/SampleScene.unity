@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -200,9 +204,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -442,6 +462,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1594,6 +1618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2023,6 +2051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.54815
@@ -2299,6 +2331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2371,6 +2407,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2632,10 +2672,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 165432479}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2936,6 +2984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2961,6 +3013,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -3842,6 +3898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4590,6 +4650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.45185
@@ -5108,6 +5172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -5364,6 +5432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.45185
@@ -5436,6 +5508,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5740,6 +5816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5817,6 +5897,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5901,6 +5985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5921,6 +6009,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -6046,6 +6138,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6255,6 +6351,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6521,6 +6621,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -7134,6 +7238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -7393,7 +7501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 356569604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Techos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7513,6 +7621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta_4x4 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4294391109781377243, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_UnmodifiedMeshVersion
       value: 337
@@ -7602,6 +7714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7627,6 +7743,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8072,6 +8192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.45185
@@ -8144,6 +8268,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8269,6 +8397,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8484,6 +8616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -8556,6 +8692,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8807,6 +8947,98 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7007470060756964401, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
   m_PrefabInstance: {fileID: 558385067}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &454974570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454974571}
+  - component: {fileID: 454974573}
+  - component: {fileID: 454974572}
+  m_Layer: 0
+  m_Name: MiniMapCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454974571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454974570}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 30, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1141742258}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!81 &454974572
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454974570}
+  m_Enabled: 0
+--- !u!20 &454974573
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454974570}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 6
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 55
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: bdd47d9f4047544f48d559415212059c, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!43 &463644504
 Mesh:
   m_ObjectHideFlags: 0
@@ -9011,6 +9243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -9083,6 +9319,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9565,6 +9805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9642,6 +9886,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9851,6 +10099,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -10100,9 +10352,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10164,6 +10432,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -10600,6 +10872,81 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &537813053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537813054}
+  - component: {fileID: 537813056}
+  - component: {fileID: 537813055}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &537813054
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537813053}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 836978147}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 32, y: 32}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &537813055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537813053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 48a868e68f4aa89569f4bad6907279da, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &537813056
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537813053}
+  m_CullTransparentMesh: 1
 --- !u!1001 &546833108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10615,6 +10962,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -10871,6 +11222,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -11175,6 +11530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11245,6 +11604,10 @@ PrefabInstance:
     - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_Name
       value: Puerta_4x4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294391109781377243, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_UnmodifiedMeshVersion
@@ -11340,6 +11703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11370,10 +11737,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1186074146}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -11805,6 +12180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -11929,6 +12308,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12319,6 +12702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12528,6 +12915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -12605,6 +12996,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -12909,6 +13304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13108,6 +13507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -13180,6 +13583,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -13727,6 +14134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -13814,6 +14225,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -14066,6 +14481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -14144,6 +14563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.45185
@@ -14214,9 +14637,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14283,6 +14722,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14807,6 +15250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14868,6 +15315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta_4x4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4294391109781377243, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_UnmodifiedMeshVersion
       value: 337
@@ -14909,6 +15360,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15213,6 +15668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15404,9 +15863,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16353,6 +16828,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5070854476620804453, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
   m_PrefabInstance: {fileID: 1241498392}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &836978146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836978147}
+  - component: {fileID: 836978149}
+  - component: {fileID: 836978148}
+  - component: {fileID: 836978150}
+  m_Layer: 5
+  m_Name: MiniMapHUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &836978147
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836978146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 537813054}
+  m_Father: {fileID: 1641993819}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 181, y: -136}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &836978148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836978146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: bdd47d9f4047544f48d559415212059c, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &836978149
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836978146}
+  m_CullTransparentMesh: 1
+--- !u!114 &836978150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836978146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0.9716981, g: 0, b: 0.73241264, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 0
 --- !u!4 &841392283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7007470060756964401, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
@@ -16995,6 +17559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -17077,6 +17645,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -18051,6 +18623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.45185
@@ -18485,6 +19061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -18567,10 +19147,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 912150254}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -18638,9 +19226,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18702,6 +19306,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18827,6 +19435,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19433,6 +20045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta_4x4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4294391109781377243, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_UnmodifiedMeshVersion
       value: 337
@@ -19521,6 +20137,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19919,6 +20539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -20264,6 +20888,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20642,6 +21270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.45185
@@ -20766,6 +21398,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21510,6 +22146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -21766,6 +22406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.45185
@@ -21839,6 +22483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21904,9 +22552,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21968,6 +22632,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -22094,6 +22762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22114,6 +22786,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22281,6 +22957,7 @@ Transform:
   m_Children:
   - {fileID: 1835544890}
   - {fileID: 1304805976}
+  - {fileID: 454974571}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1146834387
@@ -22883,6 +23560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.54815
@@ -22955,6 +23636,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23206,6 +23891,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24069,6 +24758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24094,6 +24787,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -24355,10 +25052,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 382993641}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -24428,6 +25133,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -24679,6 +25388,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -24935,6 +25648,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -25197,6 +25914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -25321,6 +26042,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25456,10 +26181,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 678508821}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -25581,6 +26314,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25781,6 +26518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -25905,6 +26646,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26162,6 +26907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26187,10 +26936,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 802309158}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -26973,6 +27730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -27046,6 +27807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -27118,6 +27883,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -27196,10 +27965,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1950789613}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -27264,6 +28041,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -27382,6 +28163,10 @@ PrefabInstance:
     - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_Name
       value: Puerta_4x4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4294391109781377243, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_UnmodifiedMeshVersion
@@ -27504,6 +28289,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -28015,6 +28804,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28621,6 +29414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta_4x4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2796113307323076882, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4294391109781377243, guid: 2e3153054db6230c8a4a4e95f345bfbf, type: 3}
       propertyPath: m_UnmodifiedMeshVersion
       value: 337
@@ -28846,6 +29643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -28919,6 +29720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.45185
@@ -28984,9 +29789,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29056,9 +29877,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29364,6 +30201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29562,6 +30403,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -29813,6 +30658,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -30248,6 +31097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -30325,6 +31178,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -30414,6 +31271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.45185
@@ -30479,9 +31340,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30905,6 +31782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.54815
@@ -30967,6 +31848,108 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
   m_PrefabInstance: {fileID: 1475308014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1641993815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641993819}
+  - component: {fileID: 1641993818}
+  - component: {fileID: 1641993817}
+  - component: {fileID: 1641993816}
+  m_Layer: 5
+  m_Name: CanvasHUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1641993816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641993815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1641993817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641993815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1641993818
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641993815}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1641993819
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641993815}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 836978147}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!43 &1643125517
 Mesh:
   m_ObjectHideFlags: 0
@@ -31264,10 +32247,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1902309470}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -32228,6 +33219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -32306,6 +33301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -32379,6 +33378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -32444,9 +33447,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32743,6 +33762,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33371,6 +34394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33448,6 +34475,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34014,6 +35045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -34275,6 +35310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -34399,6 +35438,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34774,9 +35817,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35200,6 +36259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParedSolida_4x4 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -35508,6 +36571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35528,6 +36595,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -35606,10 +36677,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 225546431}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -35788,6 +36867,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36039,6 +37122,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36473,6 +37560,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -37090,6 +38181,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -37717,10 +38812,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 753510805}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -37968,10 +39071,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1218289571920649738, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2318240970487978187, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2091301083}
+    - target: {fileID: 5434247048387509312, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6628761675541066607, guid: 6f73f236dbc9adc219335477c580c0a2, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -38036,6 +39147,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38107,9 +39222,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 103348092}
     m_Modifications:
+    - target: {fileID: 870574818236300045, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387842384504177495, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456687095524754777, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_Name
       value: Letrero 1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2751526130873645368, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270935889728889730, guid: 376232082f99e7a50b24b8164e723d08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39297,6 +40428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39500,6 +40635,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -39757,6 +40896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5481501
@@ -39829,6 +40972,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -39955,6 +41102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39980,6 +41131,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -40111,6 +41266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40131,6 +41290,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40204,6 +41367,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 Variant (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40283,6 +41450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.54815
@@ -40355,6 +41526,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -40839,6 +42014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.45185
@@ -40916,6 +42095,10 @@ PrefabInstance:
     - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Name
       value: ParedSolida_4x4 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108533304215068024, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3419932089986853014, guid: 20f0588b30fa8ff3a8618c66d39f2fef, type: 3}
       propertyPath: m_Mesh
@@ -41220,6 +42403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41419,6 +42606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 Variant (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.45185
@@ -41543,6 +42734,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41800,6 +42995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41872,6 +43071,10 @@ PrefabInstance:
     - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41956,6 +43159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suelo_4x4 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8942680471252518770, guid: ccfc696828fe8e2ba89d03f5487a38cd, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41981,9 +43188,17 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 407
       objectReference: {fileID: 0}
+    - target: {fileID: 5448732522289990745, guid: e7440d9c9f09f0b32b4fc4726888ec1b, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6997715343157194482, guid: e7440d9c9f09f0b32b4fc4726888ec1b, type: 3}
       propertyPath: m_Name
       value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 6997715343157194482, guid: e7440d9c9f09f0b32b4fc4726888ec1b, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7656605860670148077, guid: e7440d9c9f09f0b32b4fc4726888ec1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42049,6 +43264,10 @@ PrefabInstance:
     - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_Name
       value: Suelo_4x4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2407799410336058566, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4345824831644049285, guid: bdc6d96ab2715140aacbc141ce37feed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42121,3 +43340,4 @@ SceneRoots:
   - {fileID: 2032965255}
   - {fileID: 1645408533}
   - {fileID: 190710001}
+  - {fileID: 1641993819}
