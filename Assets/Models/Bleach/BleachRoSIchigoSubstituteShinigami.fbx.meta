@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: b21c4f0c07ca6154ab72039742778331
+ModelImporter:
+  serializedVersion: 24300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_+WepBack.1_1.0_0_0
+    second: {fileID: 2100000, guid: d4d2e4b6e64bde944a5d333d50587079, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_+WepBack.2_1.0_0_0
+    second: {fileID: 2100000, guid: 52397ec41080453438442107407d5b02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_+armRdefault_1.0_0_0
+    second: {fileID: 2100000, guid: e6545d881b3ad334680985800d433f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_-WepHand.1_1.0_0_0
+    second: {fileID: 2100000, guid: 4a68bba426aaf564cb16bb8029dba1c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_-WepHand.2_1.0_0_0
+    second: {fileID: 2100000, guid: ff71a3aa29ddf46468928c48787314fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_-armRhidden_1.0_0_0
+    second: {fileID: 2100000, guid: ef0d55bb15dc83346be06c2c33e8b647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_acc_1.0_0_0
+    second: {fileID: 2100000, guid: 5616f010e75d3e54bb0e4c27a36dc873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_belt_1.0_0_0
+    second: {fileID: 2100000, guid: c824f375c40648f40ad7d6d1c6c4ac59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_eyebrow_1.0_0_0.001
+    second: {fileID: 2100000, guid: d1c9cbe97bdc5fa43be227d2d0e19932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_eyelashes_1.0_0_0.001
+    second: {fileID: 2100000, guid: b8917a1e5723934428a2aeb47e9fdbb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_eyes_1.0_0_0.001
+    second: {fileID: 2100000, guid: f6e0a527a7c38704e9618457ba516eba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_eyeshine_1.0_0_0.001
+    second: {fileID: 2100000, guid: 555bcc9e02047f9458bbfdf99dc63333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_eyewhite_1.0_0_0.001
+    second: {fileID: 2100000, guid: 757364de620a6a949be8ce4ef4bd35ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_face_1.0_0_0.001
+    second: {fileID: 2100000, guid: 9812c4110b099d24cb22d0fb2a84bee8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_feet_1.0_0_0
+    second: {fileID: 2100000, guid: 7894ea11a41e55749a8ad98f38e37664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_hair_1.0_0_0
+    second: {fileID: 2100000, guid: f30fcc97ad556d344892eac6997d8a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_hakama_1.0_0_0
+    second: {fileID: 2100000, guid: 8106a4b147ec57f4c84994d1f7fbefb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_mouth_1.0_0_0.001
+    second: {fileID: 2100000, guid: 79854b111bd68554f83cfc54fb4b6f77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_noseline_1_0_0
+    second: {fileID: 2100000, guid: 8aac131951f44fc44a8c343651d58fe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_skin_1.0_0_0
+    second: {fileID: 2100000, guid: e7ad23df1b590d74aae4d411d6c09f00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_sleeves_1.0_0_0
+    second: {fileID: 2100000, guid: de8931bdbccf4d74a94a782c93aafe19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_teeth_1.0_0_0.001
+    second: {fileID: 2100000, guid: dad7a5d885947de43bc4e8dd0dea472f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_tongue_1.0_0_0.001
+    second: {fileID: 2100000, guid: c205c4b2dc8a76a40a0bedf36a95d9e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5_torso_1.0_0_0
+    second: {fileID: 2100000, guid: c8446d575c2ca38428e388b653011d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7_eyeshadow_1.0_0_0.001
+    second: {fileID: 2100000, guid: 4143207796147614bbd2c0c4ba55507c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
