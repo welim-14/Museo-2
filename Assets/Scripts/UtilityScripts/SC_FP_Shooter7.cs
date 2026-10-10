@@ -150,7 +150,7 @@ public class SC_FP_Shooter7 : MonoBehaviour
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
             {
                 moveDirection.y = jumpSpeed;
-                anim.SetTrigger("isJumping");
+                if (anim != null) anim.SetTrigger("isJumping");
                 MostrarMensaje("🦘 Salto realizado");
             }
         }
