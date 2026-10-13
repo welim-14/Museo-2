@@ -1,0 +1,11 @@
+# Una línea por enlace:   URL | nombre opcional | inicio-fin opcional
+# Las líneas que empiezan con # se ignoran.
+#
+# Sin nombre: se usa el título del video.
+# https://www.youtube.com/watch?v=XXXXXXXXXXX
+#
+# Con nombre:
+# https://www.youtube.com/watch?v=XXXXXXXXXXX | Bleach Opening 1
+#
+# Con nombre y recorte (mm:ss o hh:mm:ss):
+# https://www.youtube.com/watch?v=XXXXXXXXXXX | Bleach Opening 1 | 0:10-1:40
