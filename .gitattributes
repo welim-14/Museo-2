@@ -170,3 +170,8 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+# Unity guarda los datos de terreno (TerrainData) en binario aunque sean .asset;
+# tratarlos como texto (eol=lf) corrompe las alturas al hacer commit
+Assets/Terrain/*.asset  binary
+*[Tt]errain*.asset      binary
+*[Tt]erreno*.asset      binary
