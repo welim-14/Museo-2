@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
-[RequireComponent(typeof(Animator))]
 public class SC_FP_Shooter7 : MonoBehaviour
 {
     // ==========================================================
@@ -122,14 +121,16 @@ public class SC_FP_Shooter7 : MonoBehaviour
     void Awake()
     {
         // ======================================================
-        // OBTENER COMPONENTES DEL MISMO GAMEOBJECT
+        // OBTENER COMPONENTES
         // ======================================================
 
         characterController =
             GetComponent<CharacterController>();
 
+        // El Animator va en el modelo (hijo "hamood"), porque las rutas
+        // de los huesos en los clips empiezan en el modelo.
         anim =
-            GetComponent<Animator>();
+            BuscarAnimator();
 
         if (characterController == null)
         {
@@ -143,7 +144,7 @@ public class SC_FP_Shooter7 : MonoBehaviour
         {
             Debug.LogError(
                 "SC_FP_Shooter7: El Player necesita " +
-                "un Animator directamente en el mismo GameObject."
+                "un Animator con controlador en el modelo."
             );
         }
     }
@@ -521,6 +522,22 @@ public class SC_FP_Shooter7 : MonoBehaviour
                 false
             );
         }
+    }
+
+    // ==========================================================
+    // BUSCAR ANIMATOR
+    // ==========================================================
+
+    Animator BuscarAnimator()
+    {
+        // Se prefiere el que tenga controlador asignado
+        foreach (Animator a in GetComponentsInChildren<Animator>(true))
+        {
+            if (a.runtimeAnimatorController != null)
+                return a;
+        }
+
+        return GetComponentInChildren<Animator>(true);
     }
 
     // ==========================================================

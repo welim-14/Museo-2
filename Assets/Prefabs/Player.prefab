@@ -881,6 +881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2225278446828976542}
+  - component: {fileID: 1033008063208203343}
   m_Layer: 0
   m_Name: hamood
   m_TagString: Untagged
@@ -908,6 +909,28 @@ Transform:
   - {fileID: 384623130302967372}
   m_Father: {fileID: 1468760947351949305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1033008063208203343
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561084794746610468}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eee39930856d4a347919eb4e933e26ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1635990226711976537
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,7 +942,6 @@ GameObject:
   - component: {fileID: 1468760947351949305}
   - component: {fileID: 667012029288882123}
   - component: {fileID: 2232020304561041477}
-  - component: {fileID: 2882370741272393068}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1011,28 +1033,6 @@ MonoBehaviour:
   distanciaPuntoInteres: 10
   mostrarDistanciaPunto: 1
   anim: {fileID: 0}
---- !u!95 &2882370741272393068
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635990226711976537}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eee39930856d4a347919eb4e933e26ec, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1697791608746827929
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,13 +2367,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2994d06b2c375cc6cb1cb54943d77cc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PunteroInteraccion
-  distanciaMaxima: 20
+  distanciaMaxima: 6
   capas:
     serializedVersion: 2
     m_Bits: 4294967295
   rebloquearCursorAlHacerClic: 1
   mostrarIndicador: 1
   colorIndicador: {r: 1, g: 0.8, b: 0.3, a: 1}
+  textoHUD: {fileID: 3289103890705174304}
+  panelHUD: {fileID: 5145327678674608752}
 --- !u!1 &3264953816906566883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,16 +2990,16 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 9
+    m_MaxSize: 14
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Text Prompt
+  m_Text: 
 --- !u!1 &4735050830950791153
 GameObject:
   m_ObjectHideFlags: 0
