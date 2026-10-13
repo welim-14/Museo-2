@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Video;
 
 // Marco o pantalla que muestra una imagen o un video.
-// Hijos esperados: "Marco" (cubo del borde) y "Pantalla" (Quad con material Unlit/Texture).
+// Hijos esperados: "Marco" (cubo del borde) y "Pantalla" (Quad con material Museo/Pantalla).
 // La pantalla mira hacia -Z local: el visitante se coloca delante, del lado -Z.
 // Con "ajustarProporcion" el marco se redimensiona a la proporción del contenido
 // sin pasarse de "tamanoMaximo".
@@ -96,13 +96,29 @@ public class MarcoMultimedia : MonoBehaviour, IInteractuable
         if (pantalla == null) { Transform p = transform.Find("Pantalla"); if (p) pantalla = p.GetComponent<Renderer>(); }
     }
 
+    // Texture2D.blackTexture es transparente y el shader de la pantalla pintaría el fondo blanco
+    private static Texture2D negroOpaco;
+    static Texture2D NegroOpaco
+    {
+        get
+        {
+            if (negroOpaco == null)
+            {
+                negroOpaco = new Texture2D(1, 1) { name = "NegroOpaco", hideFlags = HideFlags.HideAndDontSave };
+                negroOpaco.SetPixel(0, 0, Color.black);
+                negroOpaco.Apply();
+            }
+            return negroOpaco;
+        }
+    }
+
     // Ajusta tamaño y textura de la pantalla según el contenido actual
     public void Aplicar()
     {
         if (pantalla == null) return;
 
         Vector2 proporcion = Vector2.zero;
-        Texture tex = Texture2D.blackTexture;
+        Texture tex = NegroOpaco;
 
         if (tipo == TipoContenido.Imagen && imagen != null)
         {
@@ -141,6 +157,19 @@ public class MarcoMultimedia : MonoBehaviour, IInteractuable
 
     void Update()
     {
+#if UNITY_EDITOR
+        // En el editor la textura puede perderse (p. ej. al reimportar la imagen); se vuelve a aplicar
+        if (!Application.isPlaying)
+        {
+            if (tipo == TipoContenido.Imagen && imagen != null && pantalla != null)
+            {
+                if (bloque == null) bloque = new MaterialPropertyBlock();
+                pantalla.GetPropertyBlock(bloque);
+                if (bloque.GetTexture(idTextura) != imagen) Aplicar();
+            }
+            return;
+        }
+#endif
         if (!Application.isPlaying || tipo != TipoContenido.Video || !TieneVideo) return;
 
         // Precargar cuando el visitante se acerca (o en cuanto lo señala)
@@ -208,6 +237,11 @@ public class MarcoMultimedia : MonoBehaviour, IInteractuable
 
         textura = new RenderTexture(w, h, 0);
         textura.Create();
+        // Empieza transparente; se limpia a negro para que no se vea el fondo blanco antes del primer fotograma
+        RenderTexture previa = RenderTexture.active;
+        RenderTexture.active = textura;
+        GL.Clear(false, true, Color.black);
+        RenderTexture.active = previa;
         vp.targetTexture = textura;
         proporcionVideo = new Vector2(w, h);
         Aplicar();
