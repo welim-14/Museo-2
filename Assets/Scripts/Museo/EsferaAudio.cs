@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 // Esfera que reproduce un audio mientras el puntero está encima.
@@ -19,8 +20,23 @@ public class EsferaAudio : EsferaInteractiva
     private bool sonando;
     private bool pausado;
 
+    // Esferas que están sonando, para mostrarlas en el HUD aunque no se las señale
+    private static readonly List<EsferaAudio> activas = new List<EsferaAudio>();
+
+    string Nombre => string.IsNullOrEmpty(titulo) ? audioClip.name : titulo;
+
     public override string TextoAyuda =>
-        audioClip == null ? "(sin audio)" : string.IsNullOrEmpty(titulo) ? audioClip.name : titulo;
+        audioClip == null ? "(sin audio)" : (Suena ? "Sonando: " : "Audio: ") + Nombre;
+
+    bool Suena => fuente != null && fuente.isPlaying && fuente.volume > 0f;
+
+    // Texto del audio que sigue sonando (el último que empezó), o null si no suena ninguno
+    public static string TextoSonando()
+    {
+        for (int i = activas.Count - 1; i >= 0; i--)
+            if (activas[i] != null && activas[i].Suena) return "Sonando: " + activas[i].Nombre;
+        return null;
+    }
 
     protected override void Awake()
     {
@@ -43,6 +59,8 @@ public class EsferaAudio : EsferaInteractiva
         else if (!fuente.isPlaying) { fuente.Stop(); fuente.Play(); }
         pausado = false;
         sonando = true;
+        activas.Remove(this);
+        activas.Add(this);
     }
 
     public override void AlSalirPuntero()
@@ -62,8 +80,14 @@ public class EsferaAudio : EsferaInteractiva
 
         if (!sonando && fuente.isPlaying && fuente.volume <= 0f) { fuente.Pause(); pausado = true; }
         if (sonando && !fuente.isPlaying) sonando = false; // terminó el clip
+        if (!sonando && !fuente.isPlaying) activas.Remove(this);
 
         // Pulso suave mientras suena
         brilloExtra = fuente.isPlaying && fuente.volume > 0f ? 0.4f + 0.3f * Mathf.Sin(Time.time * 6f) : 0f;
+    }
+
+    void OnDisable()
+    {
+        activas.Remove(this);
     }
 }

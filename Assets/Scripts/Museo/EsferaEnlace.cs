@@ -9,7 +9,7 @@ public class EsferaEnlace : EsferaInteractiva
     public string titulo = "";
 
     public override string TextoAyuda =>
-        string.IsNullOrEmpty(url) ? "(sin enlace)" : "Clic: " + (string.IsNullOrEmpty(titulo) ? url : titulo);
+        string.IsNullOrEmpty(url) ? "(sin enlace)" : "Clic para abrir: " + (string.IsNullOrEmpty(titulo) ? url : titulo);
 
     public override void AlHacerClic()
     {

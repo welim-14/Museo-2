@@ -51,7 +51,16 @@ public class MarcoMultimedia : MonoBehaviour, IInteractuable
 
     bool TieneVideo => video != null || !string.IsNullOrEmpty(urlVideo);
 
-    public string TextoAyuda => titulo;
+    public string TextoAyuda
+    {
+        get
+        {
+            if (tipo != TipoContenido.Video || !TieneVideo) return titulo;
+            string nombre = !string.IsNullOrEmpty(titulo) ? titulo : video != null ? video.name : "Video";
+            if (reproductor == null || preparando) return "Cargando: " + nombre;
+            return reproductor.isPlaying ? "Reproduciendo: " + nombre : nombre;
+        }
+    }
 
     public void AlEntrarPuntero()
     {

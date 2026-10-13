@@ -1,15 +1,18 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 // Va en la cámara del Player. Lanza un rayo cada frame y avisa a los IInteractuable
 // cuando el puntero entra, sale o hace clic. Con el cursor bloqueado (modo primera
 // persona) el puntero es el centro de la pantalla; al señalar algo interactivo se
-// dibuja un punto y el texto de ayuda (el HUD ya tiene su propia mira).
+// dibuja un punto (el HUD ya tiene su propia mira).
+// El texto de ayuda (títulos, audio o video en reproducción) se muestra en el panel
+// inferior del HUD; si no hay uno asignado, se dibuja debajo del punto.
 [RequireComponent(typeof(Camera))]
 public class PunteroInteraccion : MonoBehaviour
 {
     [Tooltip("Distancia máxima a la que se puede señalar un objeto.")]
-    public float distanciaMaxima = 20f;
+    public float distanciaMaxima = 6f;
     public LayerMask capas = ~0;
     [Tooltip("Si el cursor quedó libre (por ejemplo tras abrir un enlace), un clic en el vacío lo vuelve a bloquear.")]
     public bool rebloquearCursorAlHacerClic = true;
@@ -17,6 +20,12 @@ public class PunteroInteraccion : MonoBehaviour
     [Header("Indicador")]
     public bool mostrarIndicador = true;
     public Color colorIndicador = new Color(1f, 0.8f, 0.3f, 1f);
+
+    [Header("Mensajes en el HUD")]
+    [Tooltip("Texto del HUD donde se muestran los mensajes (CanvasHUD/Prompt/.../TextPrompt).")]
+    public Text textoHUD;
+    [Tooltip("Panel que contiene el texto; se oculta cuando no hay nada que mostrar.")]
+    public GameObject panelHUD;
 
     private Camera cam;
     private IInteractuable actual;
@@ -56,6 +65,21 @@ public class PunteroInteraccion : MonoBehaviour
                 Cursor.visible = false;
             }
         }
+
+        ActualizarHUD();
+    }
+
+    // Lo señalado tiene prioridad; si no se señala nada, se muestra el audio que siga sonando
+    void ActualizarHUD()
+    {
+        if (textoHUD == null) return;
+
+        string mensaje = actual != null ? actual.TextoAyuda : EsferaAudio.TextoSonando();
+        bool hayMensaje = !string.IsNullOrEmpty(mensaje);
+
+        if (hayMensaje && textoHUD.text != mensaje) textoHUD.text = mensaje;
+        if (panelHUD != null && panelHUD.activeSelf != hayMensaje) panelHUD.SetActive(hayMensaje);
+        else if (panelHUD == null && !hayMensaje) textoHUD.text = "";
     }
 
     void OnDisable()
@@ -77,7 +101,7 @@ public class PunteroInteraccion : MonoBehaviour
         GUI.DrawTexture(new Rect(centro.x - tam / 2f, centro.y - tam / 2f, tam, tam), Texture2D.whiteTexture);
         GUI.color = previo;
 
-        if (!string.IsNullOrEmpty(actual.TextoAyuda))
+        if (textoHUD == null && !string.IsNullOrEmpty(actual.TextoAyuda))
         {
             if (estiloAyuda == null)
             {
