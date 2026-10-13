@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.72, g: 0.8, b: 0.88, a: 1}
+  m_FogColor: {r: 1, g: 0.71774703, b: 0.495283, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 150
@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.82
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9ba05f538ee36044da5cd2a4f14a8b18, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -35,9 +35,9 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.914
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1207445310}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 23629d8104af05011b4a8c97f10b6dcb, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -5090,6 +5090,41 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &19248839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 19248840}
+  m_Layer: 0
+  m_Name: Mamparas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &19248840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19248839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 649506861}
+  - {fileID: 1075006438}
+  - {fileID: 118650399}
+  - {fileID: 1657889141}
+  m_Father: {fileID: 2049061775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &19470797
 Mesh:
   m_ObjectHideFlags: 0
@@ -8596,7 +8631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 7.6}
+  m_AnchoredPosition: {x: 0, y: 7.43}
   m_SizeDelta: {x: 14, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &37940211
@@ -8646,8 +8681,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 6.8
+  m_fontSizeBase: 6.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18959,6 +18994,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2020371379}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 241a05bad2969b27bb1167d0055252b0, type: 3}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Capitanes del Gotei 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 394466710558028704, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -19154,6 +19209,10 @@ PrefabInstance:
     - target: {fileID: 773347765728759278, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 781011478034648474, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 797218917419908755, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -19370,6 +19429,14 @@ PrefabInstance:
     - target: {fileID: 1103767902414754309, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 1112602975169621781, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -19711,6 +19778,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 205023815}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 2549c369f152b2f14b7acad26e3bdf95, type: 3}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Yasutora "Chad" Sado
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1649756585442019409, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -19775,6 +19862,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1753313903}
+    - target: {fileID: 1820410911094012553, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.153128
@@ -19935,6 +20026,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2673
       objectReference: {fileID: 0}
+    - target: {fileID: 2068646568279383356, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 91756a1f8cd82f58f944ab01e20ba05c, type: 3}
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -19942,6 +20037,22 @@ PrefabInstance:
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6941593
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8245487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 2086966808799219582, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -20317,12 +20428,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: titulo
-      value: Going Home (Bleach OST)
+      value: 'Bleach - Opening 7: After Dark (Asian Kung-Fu Generation)'
       objectReference: {fileID: 0}
     - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f24f7f160bc022f4384b7ea5b46f1cc9, type: 3}
+      objectReference: {fileID: 8300000, guid: 91756a1f8cd82f58f944ab01e20ba05c, type: 3}
     - target: {fileID: 2853866799574908829, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: Destino
       value: 
@@ -20463,6 +20574,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1084259660}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3132710358696300478, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -20562,6 +20681,10 @@ PrefabInstance:
     - target: {fileID: 3362689562816180013, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378140370266466349, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 3389564255465989581, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -20718,6 +20841,26 @@ PrefabInstance:
     - target: {fileID: 3661497149646013973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 8ffeb2f3a2f61a8818ce923f6b2d43a9, type: 3}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Rukia Kuchiki
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 3671427104363064482, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -20958,6 +21101,22 @@ PrefabInstance:
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4941592
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0245488
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4110250875144248488, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -21259,6 +21418,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2097096544}
+    - target: {fileID: 4679423317705006628, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4679750519807326688, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21279,6 +21442,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 281694111}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: f82211b2f29f45d66b06f8522a589519, type: 3}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Ichigo Kurosaki
+      objectReference: {fileID: 0}
     - target: {fileID: 4747475412536398583, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21543,6 +21718,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 809329894}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3467212
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5189270122908824468, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21679,6 +21862,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5465935446941154645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5485575587083041960, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21763,6 +21950,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1078326587}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: c58cef33d82d9a9fe919b77a6c4625af, type: 3}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Orihime Inoue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5624387999957054735, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21859,6 +22066,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 35998454}
+    - target: {fileID: 5879166753320446608, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: ea5e6d2510ce0437dac6eb665bb38b41, type: 3}
     - target: {fileID: 5879806855100745495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -21875,6 +22086,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 205023815}
+    - target: {fileID: 5902013942241578383, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5912858818802146933, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -22011,6 +22226,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 822361709}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.878777
+      objectReference: {fileID: 0}
     - target: {fileID: 6229704895920188938, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -22038,6 +22261,14 @@ PrefabInstance:
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1661417
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 6261906261583442217, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -22078,6 +22309,18 @@ PrefabInstance:
     - target: {fileID: 6300436269929263603, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 3977dff10a96a4de58160537ad98aebe, type: 3}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Bleach
       objectReference: {fileID: 0}
     - target: {fileID: 6311563495149214436, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -22315,6 +22558,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1013618722}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 72ab00af2724b597cb2eca5cd993139f, type: 3}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ury\u016B Ishida"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6700868158118934215, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -22330,6 +22593,10 @@ PrefabInstance:
     - target: {fileID: 6717642316560599597, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729191220233925174, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0018282
       objectReference: {fileID: 0}
     - target: {fileID: 6733889245288417759, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -22611,6 +22878,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1404558226}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5467212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7193136254216758194, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -22622,6 +22897,10 @@ PrefabInstance:
     - target: {fileID: 7210271108767890406, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237802159892753495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7276441333039138551, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -22859,6 +23138,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 12150170}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Number One (tema del Bankai)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ea5e6d2510ce0437dac6eb665bb38b41, type: 3}
     - target: {fileID: 7704735262342843477, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -23079,6 +23366,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8064857884612864808, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8069828197800917003, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -23143,6 +23434,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1946932176}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.678777
+      objectReference: {fileID: 0}
     - target: {fileID: 8243818025122043266, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -23151,6 +23450,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1568243813}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3661418
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8278198651109488645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -23343,6 +23650,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 0b963f8add48465fe96a634077f907ab, type: 3}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Los Vizards
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8698662819100437427, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -23375,6 +23702,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 799494568}
+    - target: {fileID: 8742653540633633867, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2018282
+      objectReference: {fileID: 0}
     - target: {fileID: 8762125937648061620, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -23645,7 +23976,10 @@ PrefabInstance:
       objectReference: {fileID: 71473159}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 302076192}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1187244675774256766, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       insertIndex: -1
@@ -34421,6 +34755,89 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &118650398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 19248840}
+    m_Modifications:
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 957dafb859e51fc958465445edf239fe, type: 3}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Mari Makinami
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742159577398201599, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_Name
+      value: Mampara Izquierda Delantera
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972992074906931217, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8774446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564326782823695980, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0774446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 3044454850365574907, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+--- !u!4 &118650399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+  m_PrefabInstance: {fileID: 118650398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &119439848
 Mesh:
   m_ObjectHideFlags: 0
@@ -73465,6 +73882,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 430170949345359905, guid: 7037fa6e54808b5f4b9a434a1cc307f3, type: 3}
   m_PrefabInstance: {fileID: 301634658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &302076191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302076192}
+  m_Layer: 0
+  m_Name: Mamparas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &302076192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302076191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1538490936}
+  - {fileID: 1325776720}
+  m_Father: {fileID: 78284152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &302093165
 Mesh:
   m_ObjectHideFlags: 0
@@ -151182,6 +151632,108 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &649506860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 19248840}
+    m_Modifications:
+    - target: {fileID: 601378944949089603, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2503908
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 1fda8849ad04bf996b56fe91df6caa4d, type: 3}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Eva-00
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742159577398201599, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_Name
+      value: Mampara Izquierda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972992074906931217, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.050683
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: f0470a21c7d71d10dad8897a9aa6018c, type: 3}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Eva-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201566920774640446, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0503907
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564326782823695980, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.250683
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+--- !u!4 &649506861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+  m_PrefabInstance: {fileID: 649506860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &649709720
 Mesh:
   m_ObjectHideFlags: 0
@@ -219955,7 +220507,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1564226835}
   - {fileID: 37940210}
   m_Father: {fileID: 1836720579}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -255860,6 +256411,108 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1075006437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 19248840}
+    m_Modifications:
+    - target: {fileID: 601378944949089603, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 498ad30be4918a354bfb413036c048f4, type: 3}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Eva-03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742159577398201599, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_Name
+      value: Mampara Derecha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972992074906931217, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.7989132
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: be780cad892020f209363593d93d5ff1, type: 3}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: "Ry\u014Dji Kaji"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201566920774640446, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9250001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564326782823695980, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.9989133
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+--- !u!4 &1075006438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+  m_PrefabInstance: {fileID: 1075006437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1077558164
 Mesh:
   m_ObjectHideFlags: 0
@@ -280862,7 +281515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5374788378046137732, guid: daa3633c33396a64997b056a438ce004, type: 3}
       propertyPath: m_text
-      value: "Secci\xF3n 6"
+      value: "Ranma \xBD"
       objectReference: {fileID: 0}
     - target: {fileID: 5374788378046137732, guid: daa3633c33396a64997b056a438ce004, type: 3}
       propertyPath: m_fontSize
@@ -280894,7 +281547,7 @@ PrefabInstance:
       objectReference: {fileID: 1879011383}
     - target: {fileID: 7517763175907733072, guid: daa3633c33396a64997b056a438ce004, type: 3}
       propertyPath: m_text
-      value: "Secci\xF3n 6"
+      value: "Ranma \xBD"
       objectReference: {fileID: 0}
     - target: {fileID: 7517763175907733072, guid: daa3633c33396a64997b056a438ce004, type: 3}
       propertyPath: m_fontSize
@@ -280962,7 +281615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9146403723319680344, guid: daa3633c33396a64997b056a438ce004, type: 3}
       propertyPath: m_Name
-      value: "Portal Secci\xF3n 6"
+      value: "Portal Ranma \xBD"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -289771,7 +290424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1219906753}
   m_Layer: 0
-  m_Name: "Regreso Secci\xF3n 6"
+  m_Name: "Regreso Ranma \xBD"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312704,6 +313357,108 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1325776719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 302076192}
+    m_Modifications:
+    - target: {fileID: 601378944949089603, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.173161
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: dd43666a8f7e68b9dae1541f6c058ee8, type: 3}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Yhwach
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742159577398201599, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_Name
+      value: Mampara Derecha
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972992074906931217, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 7cfc155214a381c90bf1a512ee1b7730, type: 3}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Los Sternritter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201566920774640446, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9731611
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564326782823695980, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+--- !u!4 &1325776720 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+  m_PrefabInstance: {fileID: 1325776719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1326140932
 Mesh:
   m_ObjectHideFlags: 0
@@ -355924,6 +356679,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2673
       objectReference: {fileID: 0}
+    - target: {fileID: 2068646568279383356, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: b1bf93af240b16e3cbdf049f9c81ab47, type: 3}
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -356300,6 +357059,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 115
       objectReference: {fileID: 0}
+    - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: 'Death Note - Opening 1: The World (Nightmare)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b1bf93af240b16e3cbdf049f9c81ab47, type: 3}
     - target: {fileID: 2853866799574908829, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: Destino
       value: 
@@ -357828,6 +358595,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1680704154}
+    - target: {fileID: 5879166753320446608, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: fd03fcf1857aa099fba880c71e69f5cf, type: 3}
     - target: {fileID: 5879806855100745495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -358828,6 +359599,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1125546001}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: 'Death Note - Opening 2: What''s up, people?! (Maximum the Hormone)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fd03fcf1857aa099fba880c71e69f5cf, type: 3}
     - target: {fileID: 7704735262342843477, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -367121,6 +367900,108 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1538490935
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 302076192}
+    m_Modifications:
+    - target: {fileID: 601378944949089603, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8768708
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 3b67e27643ed6235e82d8c6e57c57f81, type: 3}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: "S\u014Dsuke Aizen"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742159577398201599, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_Name
+      value: Mampara Izquierda
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972992074906931217, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 63a287c03f28ac966a37439c10a828b6, type: 3}
+    - target: {fileID: 2773227687594065904, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Ulquiorra Cifer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201566920774640446, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6768707
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564326782823695980, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+--- !u!4 &1538490936 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+  m_PrefabInstance: {fileID: 1538490935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1538638802
 Mesh:
   m_ObjectHideFlags: 0
@@ -372617,189 +373498,6 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
---- !u!1 &1564226834
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1564226835}
-  - component: {fileID: 1564226837}
-  - component: {fileID: 1564226836}
-  m_Layer: 0
-  m_Name: Rotulo MUSEO VIRTUAL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 22
-  m_IsActive: 1
---- !u!224 &1564226835
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564226834}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.85}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 935883488}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5.9}
-  m_SizeDelta: {x: 3.6, y: 3.2}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1564226836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564226834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshPro
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'MUSEO
-
-    VIRTUAL'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4283214036
-  m_fontColor: {r: 0.83, g: 0.66, b: 0.3, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 7.8
-  m_fontSizeBase: 9
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 3
-  m_fontSizeMax: 9
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1564226837}
-  m_maskType: 0
---- !u!23 &1564226837
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564226834}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!43 &1565931915
 Mesh:
   m_ObjectHideFlags: 0
@@ -388345,6 +389043,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1329526800}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: facc79740b067f4fabb2bd4eaa1bb9f4, type: 3}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 2 - Joseph Joestar
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 394466710558028704, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -388505,6 +389223,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 747756877154855282, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 763903528359625132, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -388536,6 +389258,10 @@ PrefabInstance:
     - target: {fileID: 773347765728759278, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 781011478034648474, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 797218917419908755, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -388752,6 +389478,14 @@ PrefabInstance:
     - target: {fileID: 1103767902414754309, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5796896
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 1112602975169621781, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -389053,6 +389787,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 89ab0deb0cee866be974c676e04834e8, type: 3}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 8 - Josuke Higashikata
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1614612022225677126, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -389093,6 +389847,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 862831513}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 44dc100fa97afeecdb1853cb62d5209b, type: 3}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 1 - Jonathan Joestar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1649756585442019409, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -389157,6 +389931,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 666488467}
+    - target: {fileID: 1820410911094012553, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.15313
@@ -389309,6 +390087,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2049668449530933227, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0469565
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049668449530933227, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2062009835766311948, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -389317,6 +390103,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2673
       objectReference: {fileID: 0}
+    - target: {fileID: 2068646568279383356, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 90c544b0dd90eeac5a7a67f215842cf1, type: 3}
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -389328,6 +390118,14 @@ PrefabInstance:
     - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7965072
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 2086966808799219582, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -389703,12 +390501,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: titulo
-      value: Bloody Stream
+      value: 'Parte 4 - Opening 1: Crazy Noisy Bizarre Town'
       objectReference: {fileID: 0}
     - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 636cdffa58d4a1247a173e0fc256baf3, type: 3}
+      objectReference: {fileID: 8300000, guid: 90c544b0dd90eeac5a7a67f215842cf1, type: 3}
     - target: {fileID: 2853866799574908829, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: Destino
       value: 
@@ -389849,6 +390647,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1477824724}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7796897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3132710358696300478, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -390349,6 +391155,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 148482410}
+    - target: {fileID: 4055249882903148950, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2469566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055249882903148950, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -390360,6 +391174,14 @@ PrefabInstance:
     - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5749999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9965073
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4110250875144248488, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -390661,6 +391483,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1033918762}
+    - target: {fileID: 4679423317705006628, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4679750519807326688, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -390681,6 +391507,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 198654188}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: bc1b4cc10aab89ab482a6a24c9741df2, type: 3}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 5 - Giorno Giovanna
+      objectReference: {fileID: 0}
     - target: {fileID: 4747475412536398583, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -390945,6 +391783,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1501800877}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0961747
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5189270122908824468, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391081,6 +391927,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5465935446941154645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8581139
+      objectReference: {fileID: 0}
     - target: {fileID: 5485575587083041960, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391165,6 +392015,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 78280179}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 9ec16bab17b7b6359b2a4c4f4b9ab84b, type: 3}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 7 - Johnny Joestar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5624387999957054735, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391261,6 +392131,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 643390979}
+    - target: {fileID: 5879166753320446608, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: faeca247a0002f04fa25675737854830, type: 3}
     - target: {fileID: 5879806855100745495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391277,6 +392151,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 862831513}
+    - target: {fileID: 5902013942241578383, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5912858818802146933, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391413,6 +392291,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 935207918}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6446571
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6229704895920188938, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391440,6 +392326,14 @@ PrefabInstance:
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8512396
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 6261906261583442217, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -391480,6 +392374,18 @@ PrefabInstance:
     - target: {fileID: 6300436269929263603, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 3d7f747610afa21feb93901bbff25644, type: 3}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 4 - Josuke Higashikata
       objectReference: {fileID: 0}
     - target: {fileID: 6311563495149214436, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -391717,6 +392623,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1202593868}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 441e2a61a8410996ebb275e1f026f1bb, type: 3}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 6 - Jolyne Cujoh
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6700868158118934215, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -391732,6 +392658,10 @@ PrefabInstance:
     - target: {fileID: 6717642316560599597, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729191220233925174, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4051523
       objectReference: {fileID: 0}
     - target: {fileID: 6733889245288417759, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -392013,6 +392943,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2034856837}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2961748
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7193136254216758194, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -392024,6 +392962,10 @@ PrefabInstance:
     - target: {fileID: 7210271108767890406, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237802159892753495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7276441333039138551, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -392261,6 +393203,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1239374589}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: 'Parte 7 - Opening: SPIN (Kroi)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: faeca247a0002f04fa25675737854830, type: 3}
     - target: {fileID: 7704735262342843477, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -392481,6 +393431,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8064857884612864808, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0581138
+      objectReference: {fileID: 0}
     - target: {fileID: 8069828197800917003, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -392545,6 +393499,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2001598270}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4446571
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8243818025122043266, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -392553,6 +393515,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 932057653}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0512395
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8278198651109488645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -392745,6 +393715,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 24ef096b0cafd29f4ae9094cdb174165, type: 3}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Parte 3 - Jotaro Kujo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8698662819100437427, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -392777,6 +393767,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 60348961}
+    - target: {fileID: 8742653540633633867, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6051524
+      objectReference: {fileID: 0}
     - target: {fileID: 8762125937648061620, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -399800,6 +400794,89 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1657889140
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 19248840}
+    m_Modifications:
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 1d4fed7dbe09f66b5932cc7fc80522cc, type: 3}
+    - target: {fileID: 1257421374168141023, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: titulo
+      value: Ritsuko Akagi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742159577398201599, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_Name
+      value: Mampara Derecha Delantera
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972992074906931217, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8774446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564326782823695980, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.0774446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 3044454850365574907, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+--- !u!4 &1657889141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4576084642162064585, guid: 011c2a64387d6f57488339802c31280c, type: 3}
+  m_PrefabInstance: {fileID: 1657889140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1658015153
 Mesh:
   m_ObjectHideFlags: 0
@@ -449866,6 +450943,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 858789372}
+    - target: {fileID: 196687100932703720, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 196687100932703720, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 73b01ef675c30d1be8230677a2add0df, type: 3}
+    - target: {fileID: 196687100932703720, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: 'Ranma: original y reboot'
+      objectReference: {fileID: 0}
+    - target: {fileID: 196687100932703720, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 196687100932703720, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 197882904387977598, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -449962,6 +451059,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1934898093}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 62251672df33f0fb2bb2246b7df5e857, type: 3}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Shampoo
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 394466710558028704, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450006,6 +451123,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 349668396}
+    - target: {fileID: 506701023245104000, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 513328582990352852, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450074,6 +451195,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1843920836}
+    - target: {fileID: 624027983589759270, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 624027983589759270, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
+      objectReference: {fileID: 0}
     - target: {fileID: 634036441638823828, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450258,6 +451387,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1184363612}
+    - target: {fileID: 944087001557266254, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 944087001557266254, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 879daf6f63e20c980b470d7b28e9d2a5, type: 3}
+    - target: {fileID: 944087001557266254, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "La familia Tend\u014D"
+      objectReference: {fileID: 0}
     - target: {fileID: 952927478064798769, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450353,6 +451494,14 @@ PrefabInstance:
     - target: {fileID: 1103767902414754309, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 1112602975169621781, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -450654,6 +451803,18 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: video
+      value: 
+      objectReference: {fileID: 32900000, guid: a11b9f12f771bd1f180cff63da149971, type: 3}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Lo que dijo Ranma en sus sue\xF1os"
+      objectReference: {fileID: 0}
     - target: {fileID: 1614612022225677126, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450694,6 +451855,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2002387540}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: video
+      value: 
+      objectReference: {fileID: 32900000, guid: 6e8a17e16939e92a09ffb5f5305d1b23, type: 3}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Ranma y Ryoga huyen de Akane (cap. 79)
+      objectReference: {fileID: 0}
     - target: {fileID: 1649756585442019409, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450758,6 +451931,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1891170116}
+    - target: {fileID: 1820410911094012553, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.75324
@@ -450910,6 +452087,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2049668449530933227, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6666667
+      objectReference: {fileID: 0}
     - target: {fileID: 2062009835766311948, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450918,6 +452099,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2673
       objectReference: {fileID: 0}
+    - target: {fileID: 2068646568279383356, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 90927d606d87a571e9c5205d0dd09154, type: 3}
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -450925,6 +452110,18 @@ PrefabInstance:
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5749999
       objectReference: {fileID: 0}
     - target: {fileID: 2086966808799219582, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -450997,6 +452194,10 @@ PrefabInstance:
     - target: {fileID: 2213909798817326235, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213954994761310143, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 2215353658929501265, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -451076,7 +452277,7 @@ PrefabInstance:
       objectReference: {fileID: 1742568543}
     - target: {fileID: 2460481274595677873, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_text
-      value: "SECCI\xD3N 6"
+      value: "RANMA \xBD"
       objectReference: {fileID: 0}
     - target: {fileID: 2460481274595677873, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -451134,6 +452335,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2138490386}
+    - target: {fileID: 2539730252568389117, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.7
+      objectReference: {fileID: 0}
     - target: {fileID: 2543235981437128061, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -451294,6 +452499,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 115
       objectReference: {fileID: 0}
+    - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ranma \xBD - Opening (espa\xF1ol latino)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 90927d606d87a571e9c5205d0dd09154, type: 3}
     - target: {fileID: 2853866799574908829, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: Destino
       value: 
@@ -451434,6 +452647,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1239343549}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3132710358696300478, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -451469,6 +452690,14 @@ PrefabInstance:
     - target: {fileID: 3206605762162498978, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215069809372450651, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3215069809372450651, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 3217867874242166699, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -451529,6 +452758,10 @@ PrefabInstance:
     - target: {fileID: 3362689562816180013, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378140370266466349, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 3389564255465989581, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -451685,6 +452918,26 @@ PrefabInstance:
     - target: {fileID: 3661497149646013973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 63f947c4e23b48485b17e94dc52d2bc8, type: 3}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Ranma transformado
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 3671427104363064482, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -451910,6 +453163,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1013768075}
+    - target: {fileID: 4055249882903148950, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8666668
+      objectReference: {fileID: 0}
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -451917,6 +453174,18 @@ PrefabInstance:
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.775
       objectReference: {fileID: 0}
     - target: {fileID: 4110250875144248488, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -452218,6 +453487,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 790835618}
+    - target: {fileID: 4679423317705006628, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4679750519807326688, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452238,6 +453511,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 761516940}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 02a91b34b85441a63900c4037f57bd38, type: 3}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ranma \xBD (2024)"
+      objectReference: {fileID: 0}
     - target: {fileID: 4747475412536398583, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452462,6 +453747,18 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5146814302497064162, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146814302497064162, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: video
+      value: 
+      objectReference: {fileID: 32900000, guid: 523540bf5d3cd42d598ec7a1e565537c, type: 3}
+    - target: {fileID: 5146814302497064162, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "La transformaci\xF3n de Ranma"
+      objectReference: {fileID: 0}
     - target: {fileID: 5152441136608160911, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452490,6 +453787,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1486909134}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5189270122908824468, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452626,6 +453931,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5465935446941154645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0282316
+      objectReference: {fileID: 0}
     - target: {fileID: 5485575587083041960, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452682,6 +453991,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5584203587393116204, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5749999
+      objectReference: {fileID: 0}
     - target: {fileID: 5592923968737324011, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452706,6 +454019,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 230839878}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 59f86418d34446d5b9db4cb14acc5734, type: 3}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Akane Tend\u014D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5624387999957054735, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452802,6 +454135,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 966859939}
+    - target: {fileID: 5879166753320446608, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 664de6149af9eb27f912dec8b5c15382, type: 3}
     - target: {fileID: 5879806855100745495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452818,6 +454155,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2002387540}
+    - target: {fileID: 5902013942241578383, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5912858818802146933, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452954,6 +454295,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 490818705}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1826742
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6229704895920188938, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -452968,11 +454317,11 @@ PrefabInstance:
       objectReference: {fileID: 1367591159}
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_text
-      value: "SECCI\xD3N 6"
+      value: "RANMA \xBD"
       objectReference: {fileID: 0}
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_fontSize
-      value: 9.4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -452981,6 +454330,14 @@ PrefabInstance:
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 6261906261583442217, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -453021,6 +454378,18 @@ PrefabInstance:
     - target: {fileID: 6300436269929263603, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: f0ec2da968b60daa09ac05cda778f1f4, type: 3}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ranma \xBD (1989)"
       objectReference: {fileID: 0}
     - target: {fileID: 6311563495149214436, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -453258,6 +454627,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2114441368}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 3d167d464a3bb65c5a36d52e00d6768f, type: 3}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ry\u014Dga Hibiki"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6700868158118934215, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -453273,6 +454662,10 @@ PrefabInstance:
     - target: {fileID: 6717642316560599597, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729191220233925174, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1136363
       objectReference: {fileID: 0}
     - target: {fileID: 6733889245288417759, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -453554,6 +454947,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 646977258}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7193136254216758194, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -453565,6 +454966,10 @@ PrefabInstance:
     - target: {fileID: 7210271108767890406, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237802159892753495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7276441333039138551, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -453750,6 +455155,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 344676289}
+    - target: {fileID: 7586829533244313169, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.775
+      objectReference: {fileID: 0}
     - target: {fileID: 7587326097590366542, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -453798,6 +455207,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1046537706}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ranma \xBD (2024) - Opening: Iinazukkyun (ano)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 664de6149af9eb27f912dec8b5c15382, type: 3}
     - target: {fileID: 7704735262342843477, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -454018,6 +455435,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8064857884612864808, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2282317
+      objectReference: {fileID: 0}
     - target: {fileID: 8069828197800917003, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -454082,6 +455503,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1753050280}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9826742
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8243818025122043266, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -454090,6 +455519,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 695740196}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8278198651109488645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -454282,6 +455719,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 6adbc3a794d9502fd860046c9094fa0f, type: 3}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Genma Saotome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8698662819100437427, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -454314,6 +455771,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 517248189}
+    - target: {fileID: 8742653540633633867, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3136363
+      objectReference: {fileID: 0}
     - target: {fileID: 8762125937648061620, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -454548,7 +456009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156840111501867259, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Name
-      value: "Secci\xF3n 6"
+      value: "Ranma \xBD"
       objectReference: {fileID: 0}
     - target: {fileID: 9160071480211332287, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -494571,6 +496032,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2018102096}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 125fa7ef289bbf82b8b7b9dc057ba33f, type: 3}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Gend\u014D Ikari"
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 394466710558028704, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -494735,6 +496216,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 747756877154855282, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 763903528359625132, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -494766,6 +496251,10 @@ PrefabInstance:
     - target: {fileID: 773347765728759278, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 781011478034648474, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 797218917419908755, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -494982,6 +496471,14 @@ PrefabInstance:
     - target: {fileID: 1103767902414754309, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4625
       objectReference: {fileID: 0}
     - target: {fileID: 1112602975169621781, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -495283,6 +496780,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 7855c3c601fcba426a16662e916a4db8, type: 3}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Pen Pen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1614612022225677126, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -495323,6 +496840,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1505761172}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 750f4d1c73c3dfefb9d821c5ff4dacde, type: 3}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Kaworu Nagisa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1649756585442019409, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -495387,6 +496924,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2014736878}
+    - target: {fileID: 1820410911094012553, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.753235
@@ -495539,6 +497080,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2049668449530933227, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049668449530933227, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9499999
+      objectReference: {fileID: 0}
     - target: {fileID: 2062009835766311948, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -495547,6 +497096,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2673
       objectReference: {fileID: 0}
+    - target: {fileID: 2068646568279383356, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d78007a9c0c4c86509b6bee62f0130e6, type: 3}
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -495554,6 +497107,22 @@ PrefabInstance:
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 2086966808799219582, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -495927,6 +497496,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 115
       objectReference: {fileID: 0}
+    - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: A Cruel Angel's Thesis (Yoko Takahashi)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853590347935077823, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d78007a9c0c4c86509b6bee62f0130e6, type: 3}
     - target: {fileID: 2853866799574908829, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: Destino
       value: 
@@ -496067,6 +497644,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 461461228}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6625
+      objectReference: {fileID: 0}
     - target: {fileID: 3132710358696300478, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -496166,6 +497751,10 @@ PrefabInstance:
     - target: {fileID: 3362689562816180013, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378140370266466349, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 3389564255465989581, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -496322,6 +497911,26 @@ PrefabInstance:
     - target: {fileID: 3661497149646013973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 5ad4a7ce90078562c9f2e10b36fa66e6, type: 3}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Shinji Ikari
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 3671427104363064482, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -496547,6 +498156,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 290960098}
+    - target: {fileID: 4055249882903148950, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055249882903148950, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1499999
+      objectReference: {fileID: 0}
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -496554,6 +498171,22 @@ PrefabInstance:
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 4110250875144248488, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -496855,6 +498488,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1830453830}
+    - target: {fileID: 4679423317705006628, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4679750519807326688, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -496875,6 +498512,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 111501318}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 07a53134c01bef61f883c213a1fb4296, type: 3}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Eva-02
+      objectReference: {fileID: 0}
     - target: {fileID: 4747475412536398583, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497139,6 +498788,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1930652646}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4625
+      objectReference: {fileID: 0}
     - target: {fileID: 5189270122908824468, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497275,6 +498932,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5465935446941154645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1210938
+      objectReference: {fileID: 0}
     - target: {fileID: 5485575587083041960, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497359,6 +499020,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1771629703}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: aa07309a86444747492e79a522a5e4c4, type: 3}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Asuka Langley S\u014Dry\u016B"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 5624387999957054735, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497455,6 +499136,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1425425629}
+    - target: {fileID: 5879166753320446608, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 4bbff46314cb55c81ad6086102f2d0b1, type: 3}
     - target: {fileID: 5879806855100745495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497471,6 +499156,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1505761172}
+    - target: {fileID: 5902013942241578383, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5912858818802146933, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497607,6 +499296,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 474667644}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6625
+      objectReference: {fileID: 0}
     - target: {fileID: 6229704895920188938, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497634,6 +499331,14 @@ PrefabInstance:
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4632558
       objectReference: {fileID: 0}
     - target: {fileID: 6261906261583442217, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -497674,6 +499379,18 @@ PrefabInstance:
     - target: {fileID: 6300436269929263603, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: cbe1c950543722642ae608421e9df96a, type: 3}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Eva-01
       objectReference: {fileID: 0}
     - target: {fileID: 6311563495149214436, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -497911,6 +499628,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 746599160}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 98a4ac50f66d36f74b7eddea85877108, type: 3}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Rei Ayanami
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6700868158118934215, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -497926,6 +499663,10 @@ PrefabInstance:
     - target: {fileID: 6717642316560599597, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729191220233925174, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1218073
       objectReference: {fileID: 0}
     - target: {fileID: 6733889245288417759, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -498207,6 +499948,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1368654697}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6625
+      objectReference: {fileID: 0}
     - target: {fileID: 7193136254216758194, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498218,6 +499967,10 @@ PrefabInstance:
     - target: {fileID: 7210271108767890406, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237802159892753495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7276441333039138551, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -498455,6 +500208,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1284181762}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Komm, s\xFCsser Tod (Arianne)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690544361587302931, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4bbff46314cb55c81ad6086102f2d0b1, type: 3}
     - target: {fileID: 7704735262342843477, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498675,6 +500436,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8064857884612864808, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3210938
+      objectReference: {fileID: 0}
     - target: {fileID: 8069828197800917003, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498739,6 +500504,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1064725295}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4625
+      objectReference: {fileID: 0}
     - target: {fileID: 8243818025122043266, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498747,6 +500520,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 103128635}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6632558
+      objectReference: {fileID: 0}
     - target: {fileID: 8278198651109488645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498939,6 +500720,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: a6d6e82b8588d94a281b38bd378981da, type: 3}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Misato Katsuragi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8698662819100437427, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498971,6 +500772,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2112266007}
+    - target: {fileID: 8742653540633633867, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3218074
+      objectReference: {fileID: 0}
     - target: {fileID: 8762125937648061620, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -499241,7 +501046,10 @@ PrefabInstance:
       objectReference: {fileID: 1490868970}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 19248840}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1187244675774256766, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       insertIndex: -1
