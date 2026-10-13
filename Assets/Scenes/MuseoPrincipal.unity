@@ -23975,7 +23975,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 71473159}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1900432391218217518, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       insertIndex: -1
@@ -61677,6 +61678,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1218520343670064777, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 56.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460351598078886182, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: distanciaReproduccion
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1468760947351949305, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -61721,8 +61730,64 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2232020304561041477, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: runningSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2232020304561041477, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: walkingSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2232020304561041477, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: TextNombreEscena
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2232020304561041477, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: TextPosicionEscena
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116888519780475550, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116888519780475550, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116888519780475550, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_Color.g
+      value: 0.046459395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116888519780475550, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_Color.r
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 3199976329880325146, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4719790150161648734, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056468646293358980, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8504333115436021333, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 167.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8775456529301596515, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8994444833127884693, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+    - {fileID: 2376745114467918522, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+    - {fileID: 7636267957113780991, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
+    - {fileID: 7811098612469149259, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f34c2afd6a6db2f49845b52f54053eac, type: 3}
@@ -355707,6 +355772,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 126168424}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 4068f779f3d23845aac98ce241ee970a, type: 3}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Los shinigamis
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 378354741942231262, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 394466710558028704, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -356115,6 +356200,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103967292442983440, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1112602975169621781, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -356415,6 +356508,18 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 6a6597e43a345cc68a250e3efaa7b004, type: 3}
+    - target: {fileID: 1613372086001496869, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: La manzana de Ryuk
+      objectReference: {fileID: 0}
     - target: {fileID: 1614612022225677126, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -356455,6 +356560,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 468607573}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: ce0da8e92561d8baf82f1a57fa03abf5, type: 3}
+    - target: {fileID: 1645498844559955917, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Light y los shinigamis
+      objectReference: {fileID: 0}
     - target: {fileID: 1649756585442019409, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -356519,6 +356636,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1603436482}
+    - target: {fileID: 1820410911094012553, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1837221082835114559, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.753235
@@ -356671,6 +356792,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2049668449530933227, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5723951
+      objectReference: {fileID: 0}
     - target: {fileID: 2062009835766311948, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -356690,6 +356815,14 @@ PrefabInstance:
     - target: {fileID: 2072059054723843606, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073384706135226569, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7723951
+      objectReference: {fileID: 0}
+    - target: {fileID: 2073845773383256835, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.570625
       objectReference: {fileID: 0}
     - target: {fileID: 2086966808799219582, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -357207,6 +357340,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 190092281}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3126855726027876973, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3132710358696300478, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -357463,6 +357604,18 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: e68d344ce134dd28fb439436b34ec887, type: 3}
+    - target: {fileID: 3666732134555349626, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Ryuk, Light y Misa
+      objectReference: {fileID: 0}
     - target: {fileID: 3671427104363064482, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -357535,6 +357688,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 561222093}
+    - target: {fileID: 3778422274690082335, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: url
+      value: https://es.wikipedia.org/wiki/Death_Note
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778422274690082335, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Death Note en Wikipedia
+      objectReference: {fileID: 0}
     - target: {fileID: 3785997664431356480, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -357687,6 +357848,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1990791210}
+    - target: {fileID: 4055249882903148950, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7723951
+      objectReference: {fileID: 0}
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -357694,6 +357859,14 @@ PrefabInstance:
     - target: {fileID: 4065525555383782295, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103028538885926580, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5723951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103062308694744446, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.770625
       objectReference: {fileID: 0}
     - target: {fileID: 4110250875144248488, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -358015,6 +358188,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1598388}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 9b31d5bc8353af68180c9bcecca9fd38, type: 3}
+    - target: {fileID: 4740281123490177435, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Death Note - Ilustraci\xF3n de Takeshi Obata"
+      objectReference: {fileID: 0}
     - target: {fileID: 4747475412536398583, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -358279,6 +358464,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 519056073}
+    - target: {fileID: 5186273316297509654, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9935999
+      objectReference: {fileID: 0}
     - target: {fileID: 5189270122908824468, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -358415,6 +358604,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5465935446941154645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9951172
+      objectReference: {fileID: 0}
     - target: {fileID: 5485575587083041960, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -358499,6 +358692,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1527170600}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: c305f355842cc8445ae9b5357044861e, type: 3}
+    - target: {fileID: 5614691170870073304, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Light Yagami - Ilustraci\xF3n del manga"
+      objectReference: {fileID: 0}
     - target: {fileID: 5624387999957054735, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -358751,6 +358956,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 49437653}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221267777294908595, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6229704895920188938, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -358778,6 +358991,10 @@ PrefabInstance:
     - target: {fileID: 6258836548268704801, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260518902242662589, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5735999
       objectReference: {fileID: 0}
     - target: {fileID: 6261906261583442217, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -358818,6 +359035,18 @@ PrefabInstance:
     - target: {fileID: 6300436269929263603, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: 9d260dbe1c574bcf294a4c0e251a5e77, type: 3}
+    - target: {fileID: 6300773400289996536, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Death Note - P\xF3ster del anime"
       objectReference: {fileID: 0}
     - target: {fileID: 6311563495149214436, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -359055,6 +359284,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 284111056}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: ce3c6d2ab11ab7ac7aa9fb0e7771d0ff, type: 3}
+    - target: {fileID: 6697959857346135155, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Misa Amane
+      objectReference: {fileID: 0}
     - target: {fileID: 6700868158118934215, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -359070,6 +359311,10 @@ PrefabInstance:
     - target: {fileID: 6717642316560599597, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6729191220233925174, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6733889245288417759, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -359351,6 +359596,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 319480222}
+    - target: {fileID: 7192141722208378219, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1936
+      objectReference: {fileID: 0}
     - target: {fileID: 7193136254216758194, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -359362,6 +359611,10 @@ PrefabInstance:
     - target: {fileID: 7210271108767890406, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_VersionIndex
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7237802159892753495, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7276441333039138551, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
@@ -359827,6 +360080,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8064857884612864808, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1951172
+      objectReference: {fileID: 0}
     - target: {fileID: 8069828197800917003, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -359891,6 +360148,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1755619292}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8241768483671517902, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8243818025122043266, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -359899,6 +360164,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1637619181}
+    - target: {fileID: 8275102724231909056, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7736
+      objectReference: {fileID: 0}
     - target: {fileID: 8278198651109488645, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -360091,6 +360360,26 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tipo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 2800000, guid: dd3cb4f1887ae004fab7b2589e5be9fd, type: 3}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Ryuk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8679174261685597696, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: tamanoMaximo.y
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8698662819100437427, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -360123,6 +360412,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1178880764}
+    - target: {fileID: 8742653540633633867, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8762125937648061620, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -453011,6 +453304,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 811236840}
+    - target: {fileID: 3778422274690082335, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: url
+      value: https://es.wikipedia.org/wiki/Ranma_%C2%BD
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778422274690082335, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: "Ranma \xBD en Wikipedia"
+      objectReference: {fileID: 0}
     - target: {fileID: 3785997664431356480, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -498004,6 +498305,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 637143693}
+    - target: {fileID: 3778422274690082335, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: url
+      value: https://es.wikipedia.org/wiki/Neon_Genesis_Evangelion
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778422274690082335, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
+      propertyPath: titulo
+      value: Neon Genesis Evangelion en Wikipedia
+      objectReference: {fileID: 0}
     - target: {fileID: 3785997664431356480, guid: cf59422e6173011278f3b1d02d48bf38, type: 3}
       propertyPath: m_Mesh
       value: 
