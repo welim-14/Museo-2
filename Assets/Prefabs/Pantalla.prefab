@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7345409930163285015
+--- !u!1 &2132995930749518295
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5068219471120392714}
-  - component: {fileID: 5140566999106476122}
-  - component: {fileID: 5484427528971844476}
-  - component: {fileID: 6064348644602765985}
-  - component: {fileID: 7732990288078629183}
-  - component: {fileID: 4027544158142100517}
+  - component: {fileID: 8757179643080800791}
+  - component: {fileID: 3905756668944635031}
+  - component: {fileID: 7515792246923523686}
+  - component: {fileID: 9036323228864487758}
+  - component: {fileID: 2878772490337687309}
+  - component: {fileID: 2152610477862344567}
   m_Layer: 0
   m_Name: Pantalla
   m_TagString: Untagged
@@ -21,36 +21,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5068219471120392714
+--- !u!4 &8757179643080800791
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345409930163285015}
+  m_GameObject: {fileID: 2132995930749518295}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58, y: 1.45, z: 13.67}
-  m_LocalScale: {x: 3.41, y: 1.93, z: 0.94}
+  m_LocalPosition: {x: 0.74, y: 1.97, z: 11.28915}
+  m_LocalScale: {x: 6, y: 3.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5140566999106476122
+--- !u!33 &3905756668944635031
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345409930163285015}
+  m_GameObject: {fileID: 2132995930749518295}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5484427528971844476
+--- !u!23 &7515792246923523686
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345409930163285015}
+  m_GameObject: {fileID: 2132995930749518295}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a51d5cafa02e0d942a6fe906ac17d423, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -93,13 +93,13 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6064348644602765985
+--- !u!64 &9036323228864487758
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345409930163285015}
+  m_GameObject: {fileID: 2132995930749518295}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -115,15 +115,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!328 &7732990288078629183
+--- !u!328 &2878772490337687309
 VideoPlayer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345409930163285015}
+  m_GameObject: {fileID: 2132995930749518295}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b5f4e0d1146f087469f974ded3db74ac, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 4c46e0192fa45fe499d2cc3b72875b37, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -151,13 +151,13 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
---- !u!114 &4027544158142100517
+--- !u!114 &2152610477862344567
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7345409930163285015}
+  m_GameObject: {fileID: 2132995930749518295}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
@@ -168,7 +168,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7732990288078629183}
+        - m_Target: {fileID: 2878772490337687309}
           m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
           m_MethodName: Play
           m_Mode: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7732990288078629183}
+        - m_Target: {fileID: 2878772490337687309}
           m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
           m_MethodName: Stop
           m_Mode: 1
@@ -200,7 +200,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7732990288078629183}
+        - m_Target: {fileID: 2878772490337687309}
           m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
           m_MethodName: Pause
           m_Mode: 1
@@ -216,7 +216,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 7732990288078629183}
+        - m_Target: {fileID: 2878772490337687309}
           m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
           m_MethodName: Play
           m_Mode: 1
