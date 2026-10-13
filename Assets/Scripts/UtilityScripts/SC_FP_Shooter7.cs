@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,383 +5,723 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(Animator))]
 public class SC_FP_Shooter7 : MonoBehaviour
 {
+    // ==========================================================
+    // MOVIMIENTO
+    // ==========================================================
+
     [Header("Movimiento")]
-    public float walkingSpeed = 7.5f;       
+    public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
     public float AlturaPersonaje = 2f;
 
+    [Header("Movimiento - Estado")]
+    public bool canMove = true;
+
+    private float horizontal;
+    private float vertical;
+    private bool isRunning;
+
+    // ==========================================================
+    // CAMARA
+    // ==========================================================
+
     [Header("Camara")]
     public Camera playerCamera;
-    public Transform vrCamera; // IMPORTANTE
+    public Transform vrCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
 
+    private float rotationX = 0;
+
+    // ==========================================================
+    // UI
+    // ==========================================================
+
     [Header("UI")]
-    public Text TextScore;
-    public Text TextVidas;
-    public Text TextPociones;
-    public Text TextMonedas;
-    public Text TextMuertes;
-    public Text TextArmo;
-    public Text TextArsenal;
     public Text TextPositionX;
     public Text TextPositionY;
     public Text TextPositionZ;
+
     public Text TextOrientacion;
     public Text TextAzimut;
     public Text TextAltitud;
-    public Text NombreUsuario;
-    public Text textoObjetosDestruidos;
 
-    public Text TextStatusBar;
+    // ==========================================================
+    // INFORMACION DE ESCENA
+    // ==========================================================
 
-    // 🔥 NUEVO SISTEMA STATUS BAR
-    [Header("Status Bar Config")]
-    public float tiempoMensaje = 2.5f;
-    private Queue<string> colaMensajes = new Queue<string>();
-    private bool mostrandoMensaje = false;
+    [Header("Información de escena")]
 
-    [Header("Combate")]
-    public GameObject balaPrefab;
-    public Transform lanzador;
-    public float VelDisparo = 10f;
-    public float tiempoDisparo = 0.3f;
-    public float lifetime = 5f;
+    [Tooltip("Muestra siempre el nombre de la escena actual.")]
+    public Text TextNombreEscena;
 
-    [Header("Gameplay")]
-    public GameObject avatar;
-    public float Xposition;
-    public float Yposition;
-    public float Zposition;
-    public string sceneName;
+    [Tooltip("Muestra el punto de interés más cercano.")]
+    public Text TextPosicionEscena;
 
-    CharacterController characterController;
-    Vector3 moveDirection = Vector3.zero;
-    float rotationX = 0;
+    // ==========================================================
+    // ESCENA ACTUAL
+    // ==========================================================
 
-    [HideInInspector] public Animator anim;
+    private string nombreEscenaActual;
 
-    float inicioDisparar;
+    // ==========================================================
+    // PUNTOS DE INTERES
+    // ==========================================================
 
-    int contadorArmo = 0;
-    int contadorScore = 0;
-    int contadorVidas = 3;
-    int contadorMonedas = 0;
-    int contadorPociones = 0;
-    int contadorMuertes = 0;
+    [System.Serializable]
+    public class PuntoInteres
+    {
+        [Tooltip("Nombre que se mostrará al acercarse.")]
+        public string nombre;
 
-    int countBullet = 0;
+        [Tooltip("Objeto que representa físicamente el punto.")]
+        public Transform punto;
+    }
 
-    public int Arsenal = 1000;
-    public bool canMove = true;
+    [Header("Puntos de interés")]
 
-    float horizontal;
-    float vertical;
-    bool isRunning;
+    [Tooltip("Puntos dentro de esta escena que serán detectados.")]
+    public List<PuntoInteres> puntosInteres =
+        new List<PuntoInteres>();
 
-    public static SC_FP_Shooter7 instancia;
+    [Tooltip("Distancia máxima para detectar un punto de interés.")]
+    public float distanciaPuntoInteres = 10f;
+
+    [Tooltip("Mostrar la distancia al punto de interés.")]
+    public bool mostrarDistanciaPunto = true;
+
+    // ==========================================================
+    // PUNTO DE INTERES ACTUAL
+    // ==========================================================
+
+    private PuntoInteres puntoInteresActual = null;
+
+    private float distanciaPuntoActual =
+        Mathf.Infinity;
+
+    // ==========================================================
+    // COMPONENTES
+    // ==========================================================
+
+    private CharacterController characterController;
+
+    [HideInInspector]
+    public Animator anim;
+
+    private Vector3 moveDirection = Vector3.zero;
+
+    // ==========================================================
+    // AWAKE
+    // ==========================================================
 
     void Awake()
     {
-        instancia = this;
+        // ======================================================
+        // OBTENER COMPONENTES DEL MISMO GAMEOBJECT
+        // ======================================================
+
+        characterController =
+            GetComponent<CharacterController>();
+
+        anim =
+            GetComponent<Animator>();
+
+        if (characterController == null)
+        {
+            Debug.LogError(
+                "SC_FP_Shooter7: El Player necesita " +
+                "un CharacterController."
+            );
+        }
+
+        if (anim == null)
+        {
+            Debug.LogError(
+                "SC_FP_Shooter7: El Player necesita " +
+                "un Animator directamente en el mismo GameObject."
+            );
+        }
     }
+
+    // ==========================================================
+    // START
+    // ==========================================================
 
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
-        anim = GetComponent<Animator>();
+        // ======================================================
+        // CONFIGURAR CHARACTER CONTROLLER
+        // ======================================================
 
-        characterController.height = AlturaPersonaje;
-        characterController.center = new Vector3(0, AlturaPersonaje / 2, 0);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        if (characterController != null)
+        {
+            characterController.height =
+                AlturaPersonaje;
+
+            characterController.center =
+                new Vector3(
+                    0,
+                    AlturaPersonaje / 2f,
+                    0
+                );
+        }
+
+        // ======================================================
+        // CONFIGURAR ANIMATOR
+        // ======================================================
+
+        if (anim != null)
+        {
+            // IMPORTANTE:
+            // El CharacterController mueve al Player.
+            // El Animator solamente reproduce las animaciones.
+
+            anim.applyRootMotion = false;
+        }
+
+        // ======================================================
+        // INFORMACION DE ESCENA
+        // ======================================================
+
+        ObtenerInformacionEscena();
+
+        // ======================================================
+        // PUNTO DE INTERES
+        // ======================================================
+
+        OcultarPuntoInteres();
     }
+
+    // ==========================================================
+    // UPDATE
+    // ==========================================================
 
     void Update()
     {
-        if (!canMove) return;
+        if (!canMove)
+        {
+            DetenerAnimacionesMovimiento();
+            return;
+        }
+
+        // ======================================================
+        // INPUTS
+        // ======================================================
 
         ProcesarInputs();
+
+        // ======================================================
+        // MOVIMIENTO
+        // ======================================================
+
         MovimientoYFisicas();
+
+        // ======================================================
+        // ROTACION
+        // ======================================================
+
         Rotacion();
-        Disparo();
+
+        // ======================================================
+        // ANIMACIONES
+        // ======================================================
+
         ActualizarAnimaciones();
 
-        textUpdate();
+        // ======================================================
+        // HUD
+        // ======================================================
+
         textUpdate2();
+
+        // ======================================================
+        // PUNTOS DE INTERES
+        // ======================================================
+
+        DetectarPuntoInteres();
     }
+
+    // ==========================================================
+    // INPUTS
+    // ==========================================================
 
     void ProcesarInputs()
     {
-        if (Keyboard.current == null) return;
-
         horizontal = 0;
         vertical = 0;
+        isRunning = false;
 
-        if (Keyboard.current.aKey.isPressed) horizontal = -1;
-        if (Keyboard.current.dKey.isPressed) horizontal = 1;
-        if (Keyboard.current.wKey.isPressed) vertical = 1;
-        if (Keyboard.current.sKey.isPressed) vertical = -1;
+        if (Keyboard.current == null)
+            return;
 
-        isRunning = Keyboard.current.leftShiftKey.isPressed;
+        // A
+        if (Keyboard.current.aKey.isPressed)
+        {
+            horizontal = -1;
+        }
+
+        // D
+        if (Keyboard.current.dKey.isPressed)
+        {
+            horizontal = 1;
+        }
+
+        // W
+        if (Keyboard.current.wKey.isPressed)
+        {
+            vertical = 1;
+        }
+
+        // S
+        if (Keyboard.current.sKey.isPressed)
+        {
+            vertical = -1;
+        }
+
+        // SHIFT
+        isRunning =
+            Keyboard.current.leftShiftKey.isPressed;
     }
+
+    // ==========================================================
+    // MOVIMIENTO Y FISICAS
+    // ==========================================================
 
     void MovimientoYFisicas()
     {
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        Vector3 right = transform.TransformDirection(Vector3.right);
+        if (characterController == null)
+            return;
 
-        float curSpeedX = (isRunning ? runningSpeed : walkingSpeed) * vertical;
-        float curSpeedY = (isRunning ? runningSpeed : walkingSpeed) * horizontal;
+        // ======================================================
+        // DIRECCIONES
+        // ======================================================
 
-        float movementDirectionY = moveDirection.y;
-        moveDirection = (forward * curSpeedX) + (right * curSpeedY);
+        Vector3 forward =
+            transform.TransformDirection(
+                Vector3.forward
+            );
+
+        Vector3 right =
+            transform.TransformDirection(
+                Vector3.right
+            );
+
+        // ======================================================
+        // MOVIMIENTO HORIZONTAL
+        // ======================================================
+
+        Vector3 movimiento =
+            (forward * vertical) +
+            (right * horizontal);
+
+        // Evitar velocidad diagonal excesiva.
+        movimiento =
+            Vector3.ClampMagnitude(
+                movimiento,
+                1f
+            );
+
+        // ======================================================
+        // VELOCIDAD
+        // ======================================================
+
+        float velocidad =
+            isRunning
+            ? runningSpeed
+            : walkingSpeed;
+
+        moveDirection.x =
+            movimiento.x * velocidad;
+
+        moveDirection.z =
+            movimiento.z * velocidad;
+
+        // ======================================================
+        // GRAVEDAD Y SALTO
+        // ======================================================
 
         if (characterController.isGrounded)
         {
-            moveDirection.y = -0.5f;
-
-            if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            // Mantener al personaje pegado al suelo.
+            if (moveDirection.y < 0)
             {
-                moveDirection.y = jumpSpeed;
-                if (anim != null) anim.SetTrigger("isJumping");
-                MostrarMensaje("🦘 Salto realizado");
+                moveDirection.y = -0.5f;
+            }
+
+            // SALTO
+            if (Keyboard.current != null &&
+                Keyboard.current.spaceKey
+                    .wasPressedThisFrame)
+            {
+                moveDirection.y =
+                    jumpSpeed;
+
+                if (anim != null &&
+                    TieneParametro(
+                        "isJumping",
+                        AnimatorControllerParameterType.Trigger))
+                {
+                    anim.SetTrigger(
+                        "isJumping"
+                    );
+                }
             }
         }
         else
         {
-            moveDirection.y = movementDirectionY - (gravity * Time.deltaTime);
+            // GRAVEDAD
+            moveDirection.y -=
+                gravity *
+                Time.deltaTime;
         }
 
-        characterController.Move(moveDirection * Time.deltaTime);
+        // ======================================================
+        // CHARACTER CONTROLLER
+        // ======================================================
+
+        characterController.Move(
+            moveDirection *
+            Time.deltaTime
+        );
     }
+
+    // ==========================================================
+    // ROTACION
+    // ==========================================================
 
     void Rotacion()
     {
-        if (Mouse.current == null) return;
+        if (Mouse.current == null)
+            return;
 
-        Vector2 mouseDelta = Mouse.current.delta.ReadValue() * lookSpeed * 0.1f;
+        Vector2 mouseDelta =
+            Mouse.current.delta.ReadValue() *
+            lookSpeed *
+            0.1f;
 
-        rotationX -= mouseDelta.y;
-        rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+        rotationX -=
+            mouseDelta.y;
 
-        playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-        transform.Rotate(Vector3.up * mouseDelta.x);
+        rotationX =
+            Mathf.Clamp(
+                rotationX,
+                -lookXLimit,
+                lookXLimit
+            );
+
+        // Rotación vertical de cámara
+        if (playerCamera != null)
+        {
+            playerCamera.transform.localRotation =
+                Quaternion.Euler(
+                    rotationX,
+                    0,
+                    0
+                );
+        }
+
+        // Rotación horizontal del Player
+        transform.Rotate(
+            Vector3.up *
+            mouseDelta.x
+        );
     }
 
-    void Disparo()
-    {
-        if (Mouse.current == null) return;
-
-        if (Mouse.current.rightButton.isPressed && Time.time > inicioDisparar && Arsenal > 0)
-        {
-            inicioDisparar = Time.time + tiempoDisparo;
-
-            Arsenal--;
-            contadorArmo++;
-
-            GameObject bala = Instantiate(balaPrefab, lanzador.position, lanzador.rotation);
-            Rigidbody rb = bala.GetComponent<Rigidbody>();
-
-            if (rb != null)
-                rb.AddForce(lanzador.forward * 100 * VelDisparo);
-
-            bala.name = "Bala " + countBullet++;
-            bala.AddComponent<Proyectil>();
-
-            Destroy(bala, lifetime);
-
-            MostrarMensaje("🔫 Disparo realizado");
-        }
-
-        if (Arsenal <= 0)
-        {
-            MostrarMensaje("⚠ Sin munición");
-        }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("TeleportTrigger"))
-        {
-            MostrarMensaje("🚪 Cambiando de zona...");
-            SceneManager.LoadScene(sceneName);
-        }
-
-        if (other.CompareTag("Teletrans"))
-        {
-            avatar.transform.position = new Vector3(Xposition, Yposition, Zposition);
-            MostrarMensaje("🌀 Teletransportado");
-        }
-
-        if (other.CompareTag("ItemVidas"))
-        {
-            Destroy(other.gameObject);
-            contadorVidas++;
-            if (TextVidas != null) TextVidas.text = contadorVidas.ToString();
-            contadorScore += 10;
-            MostrarMensaje("❤️ Vida obtenida");
-        }
-
-        if (other.CompareTag("ItemMonedas"))
-        {
-            Destroy(other.gameObject);
-            contadorMonedas++;
-            if (TextMonedas != null) TextMonedas.text = contadorMonedas.ToString();
-            contadorScore += 10;
-            MostrarMensaje("🪙 Moneda recogida");
-        }
-
-        if (other.CompareTag("ItemPociones"))
-        {
-            Destroy(other.gameObject);
-            contadorPociones++;
-            if (TextPociones != null) TextPociones.text = contadorPociones.ToString();
-            contadorScore += 25;
-            MostrarMensaje("🧪 Poción recogida");
-        }
-
-        if (other.CompareTag("ItemMuertes"))
-        {
-            Destroy(other.gameObject);
-            contadorMuertes++;
-            if (TextMuertes != null) TextMuertes.text = contadorMuertes.ToString();
-            contadorScore -= 10;
-            MostrarMensaje("☠ Objeto peligroso");
-        }
-
-        if (other.CompareTag("NPC"))
-        {
-            MostrarMensaje("🧑 NPC: Hola viajero!");
-        }
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("ItemObstaculo"))
-        {
-            IncrementarObjetosDestruidos();
-            Destroy(collision.gameObject);
-
-            MostrarMensaje("💥 Obstáculo destruido +50");
-        }
-    }
+    // ==========================================================
+    // ANIMACIONES DE MOVIMIENTO
+    // ==========================================================
 
     void ActualizarAnimaciones()
     {
-        bool isMoving = (horizontal != 0 || vertical != 0) && characterController.isGrounded;
+        if (anim == null)
+            return;
 
-        if (anim != null)
+        // ======================================================
+        // DETERMINAR SI SE MUEVE
+        // ======================================================
+
+        bool isMoving =
+            horizontal != 0 ||
+            vertical != 0;
+
+        bool grounded =
+            characterController != null &&
+            characterController.isGrounded;
+
+        bool caminando =
+            isMoving &&
+            grounded;
+
+        bool corriendo =
+            caminando &&
+            isRunning;
+
+        // ======================================================
+        // WALK
+        // ======================================================
+
+        if (TieneParametro(
+            "isWalking",
+            AnimatorControllerParameterType.Bool))
         {
-            anim.SetBool("isWalking", isMoving);
-            anim.SetBool("isRunning", isMoving && isRunning);
+            anim.SetBool(
+                "isWalking",
+                caminando
+            );
+        }
 
-            if (Mouse.current.leftButton.wasPressedThisFrame)
-            {
-                foreach (var param in anim.parameters)
-                {
-                    if (param.name == "isAttack")
-                    {
-                        anim.SetTrigger("isAttack");
-                        MostrarMensaje("⚔ Ataque");
-                        break;
-                    }
-                }
-            }
+        // ======================================================
+        // RUN
+        // ======================================================
 
-            if (Mouse.current.rightButton.wasPressedThisFrame)
-            {
-                foreach (var param in anim.parameters)
-                {
-                    if (param.name == "isTrouwing")
-                    {
-                        anim.SetTrigger("isTrouwing");
-                        break;
-                    }
-                }
-            }
+        if (TieneParametro(
+            "isRunning",
+            AnimatorControllerParameterType.Bool))
+        {
+            anim.SetBool(
+                "isRunning",
+                corriendo
+            );
         }
     }
 
-    private void textUpdate()
+    // ==========================================================
+    // DETENER ANIMACIONES
+    // ==========================================================
+
+    void DetenerAnimacionesMovimiento()
     {
-        if (TextArmo != null)
-            TextArmo.text = contadorArmo.ToString();
+        if (anim == null)
+            return;
 
-        if (TextArsenal != null)
-            TextArsenal.text = Arsenal.ToString();
+        if (TieneParametro(
+            "isWalking",
+            AnimatorControllerParameterType.Bool))
+        {
+            anim.SetBool(
+                "isWalking",
+                false
+            );
+        }
 
-        if (TextScore != null)
-            TextScore.text = contadorScore.ToString();
+        if (TieneParametro(
+            "isRunning",
+            AnimatorControllerParameterType.Bool))
+        {
+            anim.SetBool(
+                "isRunning",
+                false
+            );
+        }
     }
+
+    // ==========================================================
+    // COMPROBAR PARAMETRO DEL ANIMATOR
+    // ==========================================================
+
+    bool TieneParametro(
+        string nombre,
+        AnimatorControllerParameterType tipo)
+    {
+        if (anim == null)
+            return false;
+
+        foreach (
+            AnimatorControllerParameter parametro
+            in anim.parameters)
+        {
+            if (parametro.name == nombre &&
+                parametro.type == tipo)
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    // ==========================================================
+    // INFORMACION DE ESCENA
+    // ==========================================================
+
+    void ObtenerInformacionEscena()
+    {
+        Scene escenaActual =
+            SceneManager.GetActiveScene();
+
+        nombreEscenaActual =
+            escenaActual.name;
+
+        if (TextNombreEscena != null)
+        {
+            TextNombreEscena.text =
+                nombreEscenaActual;
+
+            TextNombreEscena.gameObject
+                .SetActive(true);
+        }
+    }
+
+    // ==========================================================
+    // PUNTOS DE INTERES
+    // ==========================================================
+
+    void DetectarPuntoInteres()
+    {
+        puntoInteresActual = null;
+
+        distanciaPuntoActual =
+            Mathf.Infinity;
+
+        if (puntosInteres == null ||
+            puntosInteres.Count == 0)
+        {
+            OcultarPuntoInteres();
+            return;
+        }
+
+        foreach (PuntoInteres punto in puntosInteres)
+        {
+            if (punto == null ||
+                punto.punto == null)
+            {
+                continue;
+            }
+
+            Vector3 posicionPlayer =
+                transform.position;
+
+            Vector3 posicionPunto =
+                punto.punto.position;
+
+            // Ignorar altura.
+            posicionPlayer.y = 0;
+            posicionPunto.y = 0;
+
+            float distancia =
+                Vector3.Distance(
+                    posicionPlayer,
+                    posicionPunto
+                );
+
+            if (distancia <=
+                distanciaPuntoInteres)
+            {
+                if (distancia <
+                    distanciaPuntoActual)
+                {
+                    distanciaPuntoActual =
+                        distancia;
+
+                    puntoInteresActual =
+                        punto;
+                }
+            }
+        }
+
+        if (puntoInteresActual != null)
+        {
+            MostrarPuntoInteres();
+        }
+        else
+        {
+            OcultarPuntoInteres();
+        }
+    }
+
+    // ==========================================================
+    // MOSTRAR PUNTO DE INTERES
+    // ==========================================================
+
+    void MostrarPuntoInteres()
+    {
+        if (TextPosicionEscena == null)
+            return;
+
+        TextPosicionEscena.gameObject
+            .SetActive(true);
+
+        if (mostrarDistanciaPunto)
+        {
+            TextPosicionEscena.text =
+                puntoInteresActual.nombre +
+                "\nDistancia: " +
+                distanciaPuntoActual.ToString("F1") +
+                " m";
+        }
+        else
+        {
+            TextPosicionEscena.text =
+                puntoInteresActual.nombre;
+        }
+    }
+
+    // ==========================================================
+    // OCULTAR PUNTO DE INTERES
+    // ==========================================================
+
+    void OcultarPuntoInteres()
+    {
+        if (TextPosicionEscena != null)
+        {
+            TextPosicionEscena.gameObject
+                .SetActive(false);
+        }
+    }
+
+    // ==========================================================
+    // INFORMACION DE POSICION
+    // ==========================================================
 
     private void textUpdate2()
     {
         if (TextPositionX != null)
-            TextPositionX.text = Mathf.RoundToInt(transform.position.x).ToString();
+            TextPositionX.text =
+                Mathf.RoundToInt(
+                    transform.position.x
+                ).ToString();
 
         if (TextPositionY != null)
-            TextPositionY.text = Mathf.RoundToInt(transform.position.y).ToString();
+            TextPositionY.text =
+                Mathf.RoundToInt(
+                    transform.position.y
+                ).ToString();
 
         if (TextPositionZ != null)
-            TextPositionZ.text = Mathf.RoundToInt(transform.position.z).ToString();
+            TextPositionZ.text =
+                Mathf.RoundToInt(
+                    transform.position.z
+                ).ToString();
 
         if (vrCamera != null)
         {
             if (TextOrientacion != null)
-                TextOrientacion.text = Mathf.RoundToInt(vrCamera.eulerAngles.y).ToString();
+                TextOrientacion.text =
+                    Mathf.RoundToInt(
+                        vrCamera.eulerAngles.y
+                    ).ToString();
 
             if (TextAzimut != null)
-                TextAzimut.text = Mathf.RoundToInt((vrCamera.eulerAngles.x - 360f) * -1f).ToString();
+                TextAzimut.text =
+                    Mathf.RoundToInt(
+                        (vrCamera.eulerAngles.x -
+                        360f) *
+                        -1f
+                    ).ToString();
         }
 
         if (TextAltitud != null)
-            TextAltitud.text = Mathf.RoundToInt(transform.position.y - 1f).ToString();
-    }
-
-    // ================= STATUS BAR =================
-
-    public void MostrarMensaje(string mensaje)
-    {
-        colaMensajes.Enqueue(mensaje);
-
-        if (!mostrandoMensaje)
-            StartCoroutine(MostrarMensajes());
-    }
-
-    IEnumerator MostrarMensajes()
-    {
-        mostrandoMensaje = true;
-
-        while (colaMensajes.Count > 0)
-        {
-            string mensajeActual = colaMensajes.Dequeue();
-
-            if (TextStatusBar != null)
-                TextStatusBar.text = mensajeActual;
-
-            yield return new WaitForSeconds(tiempoMensaje);
-        }
-
-        if (TextStatusBar != null)
-            TextStatusBar.text = "";
-
-        mostrandoMensaje = false;
-    }
-
-    public void IncrementarObjetosDestruidos()
-    {
-        contadorScore += 50;
-
-        if (textoObjetosDestruidos != null)
-            textoObjetosDestruidos.text = Proyectil.objetosDestruidos.ToString();
-
-        if (TextScore != null)
-            TextScore.text = contadorScore.ToString();
+            TextAltitud.text =
+                Mathf.RoundToInt(
+                    transform.position.y
+                ).ToString();
     }
 }
