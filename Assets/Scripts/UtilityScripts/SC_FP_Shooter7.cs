@@ -112,6 +112,12 @@ public class SC_FP_Shooter7 : MonoBehaviour
     [HideInInspector]
     public Animator anim;
 
+    [Tooltip("Segundos que las animaciones siguen considerando al jugador en el suelo tras perder contacto. " +
+             "Evita que los parpadeos de isGrounded corten la animación de caminar (y retrasen el salto).")]
+    public float margenSueloAnimacion = 0.12f;
+
+    private float ultimoContactoSuelo = -999f;
+
     private Vector3 moveDirection = Vector3.zero;
 
     // ==========================================================
@@ -453,9 +459,12 @@ public class SC_FP_Shooter7 : MonoBehaviour
             horizontal != 0 ||
             vertical != 0;
 
+        // isGrounded parpadea al caminar; para las animaciones se tolera un fotograma suelto sin suelo
+        if (characterController != null && characterController.isGrounded)
+            ultimoContactoSuelo = Time.time;
+
         bool grounded =
-            characterController != null &&
-            characterController.isGrounded;
+            Time.time - ultimoContactoSuelo <= margenSueloAnimacion;
 
         bool caminando =
             isMoving &&
