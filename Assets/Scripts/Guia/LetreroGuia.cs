@@ -22,6 +22,10 @@ public class LetreroGuia : MonoBehaviour
     void Awake()
     {
         Construir();
+        // En la capa UI para que no salga en el minimapa
+        int capaUI = LayerMask.NameToLayer("UI");
+        if (capaUI >= 0)
+            foreach (var t in GetComponentsInChildren<Transform>(true)) t.gameObject.layer = capaUI;
         grupo.alpha = 0f;
         canvas.enabled = false;
     }

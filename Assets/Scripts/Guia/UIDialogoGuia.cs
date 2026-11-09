@@ -60,6 +60,21 @@ public class UIDialogoGuia : MonoBehaviour
     public bool Abierta => alphaObjetivo > 0f;
     public bool EnConversacion => Abierta && modal;
 
+    // Para que otros sistemas (el HUD) sepan si hay una conversación en curso
+    static readonly List<UIDialogoGuia> instancias = new List<UIDialogoGuia>();
+    public static bool HayConversacion
+    {
+        get
+        {
+            foreach (var ui in instancias)
+                if (ui.EnConversacion) return true;
+            return false;
+        }
+    }
+
+    void OnEnable() { instancias.Add(this); }
+    void OnDisable() { instancias.Remove(this); }
+
     void Awake()
     {
         Construir();
