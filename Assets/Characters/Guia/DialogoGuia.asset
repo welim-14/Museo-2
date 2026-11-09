@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844152a1572910d4a9b1cf65c0ea2f80, type: 3}
+  m_Name: DialogoGuia
+  m_EditorClassIdentifier: Assembly-CSharp::DialogoGuia
+  nombre: Hamood
+  titulo: "Gu\xEDa del museo"
+  bienvenida:
+  - "Bienvenido al Museo Virtual. Mi nombre es Hamood y ser\xE1 un placer acompa\xF1arle
+    durante su visita."
+  - "En este vest\xEDbulo encontrar\xE1 seis portales; cada uno le llevar\xE1 a la
+    sala dedicada a una gran obra del anime y del manga."
+  - "\xBFEn qu\xE9 puedo ayudarle?"
+  reencuentro: "Me alegra verle de nuevo. \xBFEn qu\xE9 m\xE1s puedo ayudarle?"
+  opcionSecciones: "Ll\xE9veme a una secci\xF3n"
+  opcionMuseo: "H\xE1bleme del museo"
+  opcionNada: Nada por ahora, gracias
+  opcionVolver: Volver
+  elegirSeccion: "Con mucho gusto. \xBFQu\xE9 sala desea visitar?"
+  acompanar: "Excelente elecci\xF3n. Acomp\xE1\xF1eme, por favor; la sala de {0}
+    est\xE1 por aqu\xED."
+  infoMuseo:
+  - "El Museo Virtual re\xFAne seis obras que han dejado huella en la historia del
+    anime y del manga, cada una con su propia sala."
+  - "En las salas encontrar\xE1 im\xE1genes, videos y m\xFAsica. Basta con se\xF1alar
+    una obra para conocer su t\xEDtulo, y los videos se reproducen mientras los contempla."
+  - "Cada sala cuenta con un portal de regreso a este vest\xEDbulo. Yo estar\xE9
+    aqu\xED por si me necesita."
+  - "\xBFPuedo ayudarle en algo m\xE1s?"
+  despedida: "Ha sido un placer. Si me necesita, aqu\xED estar\xE9. Que disfrute
+    su visita."
+  avisoHablar: <b>[E]</b>  Hablar
+  avisoSigame: "S\xEDgame, por favor"
+  avisoEspera: Le espero, sin prisa
+  secciones:
+  - nombre: Bleach
+    nombrePortal: Portal Bleach
+    lineaLlegada: Hemos llegado a la sala de Bleach, el mundo de los shinigami y
+      la Sociedad de Almas. Adelante, cuando guste.
+  - nombre: Death Note
+    nombrePortal: Portal Death Note
+    lineaLlegada: "Esta es la sala de Death Note: un cuaderno, un nombre y un duelo
+      de inteligencias que todav\xEDa da que hablar. Adelante, cuando guste."
+  - nombre: JoJo's Bizarre Adventure
+    nombrePortal: Portal JoJo's Bizarre Adventure
+    lineaLlegada: "He aqu\xED la sala de JoJo's Bizarre Adventure, una saga de generaciones,
+      poses memorables y Stands. Adelante, cuando guste."
+  - nombre: Evangelion
+    nombrePortal: Portal Evangelion
+    lineaLlegada: "Esta es la sala de Evangelion, una obra que transform\xF3 para
+      siempre el g\xE9nero de los mechas. Adelante, cuando guste."
+  - nombre: "Ranma \xBD"
+    nombrePortal: "Portal Ranma \xBD"
+    lineaLlegada: "Hemos llegado a la sala de Ranma \xBD, la comedia de artes marciales
+      de Rumiko Takahashi. Adelante, cuando guste."
+  - nombre: Zenless Zone Zero
+    nombrePortal: Portal Zenless Zone Zero
+    lineaLlegada: Esta es la sala de Zenless Zone Zero, con los personajes de New
+      Eridu. Adelante, cuando guste.
