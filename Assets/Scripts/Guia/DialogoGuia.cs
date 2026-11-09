@@ -27,7 +27,7 @@ public class DialogoGuia : ScriptableObject
     public List<string> bienvenida = new List<string>
     {
         "Bienvenido al Museo Virtual. Mi nombre es Hamood y será un placer acompañarle durante su visita.",
-        "En este vestíbulo encontrará seis portales; cada uno le llevará a la sala dedicada a una gran obra del anime y del manga.",
+        "En este vestíbulo encontrará cinco portales; cada uno le llevará a la sala dedicada a una gran obra del anime y del manga.",
         "¿En qué puedo ayudarle?",
     };
 
@@ -49,7 +49,7 @@ public class DialogoGuia : ScriptableObject
     [TextArea(2, 4)]
     public List<string> infoMuseo = new List<string>
     {
-        "El Museo Virtual reúne seis obras que han dejado huella en la historia del anime y del manga, cada una con su propia sala.",
+        "El Museo Virtual reúne cinco obras que han dejado huella en la historia del anime y del manga, cada una con su propia sala.",
         "En las salas encontrará imágenes, videos y música. Basta con señalar una obra para conocer su título, y los videos se reproducen mientras los contempla.",
         "Cada sala cuenta con un portal de regreso a este vestíbulo. Yo estaré aquí por si me necesita.",
         "¿Puedo ayudarle en algo más?",
@@ -95,12 +95,6 @@ public class DialogoGuia : ScriptableObject
             nombre = "Ranma ½",
             nombrePortal = "Portal Ranma ½",
             lineaLlegada = "Hemos llegado a la sala de Ranma ½, la comedia de artes marciales de Rumiko Takahashi. Adelante, cuando guste.",
-        },
-        new Seccion
-        {
-            nombre = "Zenless Zone Zero",
-            nombrePortal = "Portal Zenless Zone Zero",
-            lineaLlegada = "Esta es la sala de Zenless Zone Zero, con los personajes de New Eridu. Adelante, cuando guste.",
         },
     };
 }
