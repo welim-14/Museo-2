@@ -29,6 +29,10 @@ public class PunteroInteraccion : MonoBehaviour
 
     private Camera cam;
     private IInteractuable actual;
+
+    // Para HUDs externos (InteraccionHUD): lo que se señala y el mensaje que toca mostrar
+    public bool Senalando => actual != null;
+    public string Mensaje { get; private set; } = "";
     private GUIStyle estiloAyuda;
 
     void Awake()
@@ -72,9 +76,10 @@ public class PunteroInteraccion : MonoBehaviour
     // Lo señalado tiene prioridad; si no se señala nada, se muestra el audio que siga sonando
     void ActualizarHUD()
     {
+        string mensaje = actual != null ? actual.TextoAyuda : EsferaAudio.TextoSonando();
+        Mensaje = mensaje ?? "";
         if (textoHUD == null) return;
 
-        string mensaje = actual != null ? actual.TextoAyuda : EsferaAudio.TextoSonando();
         bool hayMensaje = !string.IsNullOrEmpty(mensaje);
 
         if (hayMensaje && textoHUD.text != mensaje) textoHUD.text = mensaje;

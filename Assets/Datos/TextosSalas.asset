@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f958353470010eba05cef8f8d780b4, type: 3}
+  m_Name: TextosSalas
+  m_EditorClassIdentifier: Assembly-CSharp::TextosSalas
+  salas:
+  - sala: Bleach
+    titulo: Bleach
+    tituloOriginal: "Bur\u012Bchi"
+    ficha:
+    - etiqueta: Autor
+      valor: Tite Kubo
+    - etiqueta: Manga
+      valor: "Weekly Sh\u014Dnen Jump, 2001-2016 \xB7 74 vol\xFAmenes"
+    - etiqueta: Anime
+      valor: "Studio Pierrot, 2004-2012 \xB7 366 episodios"
+    texto: "Ichigo Kurosaki, un estudiante capaz de ver esp\xEDritus, recibe los
+      poderes de la shinigami Rukia Kuchiki y asume su labor: proteger a los vivos
+      de los hollows y guiar a las almas hacia la Sociedad de Almas. Junto a One
+      Piece y Naruto form\xF3 los llamados \xABtres grandes\xBB de la Sh\u014Dnen
+      Jump de los a\xF1os 2000. Su estilo gr\xE1fico, sus espadas zanpakut\u014D
+      y las liberaciones bankai lo convirtieron en un referente del g\xE9nero. En
+      2022 regres\xF3 al anime con la adaptaci\xF3n del arco final, La guerra sangrienta
+      de los mil a\xF1os."
+  - sala: Death Note
+    titulo: Death Note
+    tituloOriginal: "Desu N\u014Dto"
+    ficha:
+    - etiqueta: Guion
+      valor: Tsugumi Ohba
+    - etiqueta: Dibujo
+      valor: Takeshi Obata
+    - etiqueta: Manga
+      valor: "Weekly Sh\u014Dnen Jump, 2003-2006 \xB7 12 vol\xFAmenes"
+    - etiqueta: Anime
+      valor: "Madhouse, 2006-2007 \xB7 37 episodios"
+    texto: "Light Yagami, un estudiante brillante, encuentra un cuaderno ca\xEDdo
+      del mundo de los shinigami: quien tenga su nombre escrito en \xE9l, muere.
+      Decidido a erradicar el crimen bajo el nombre de Kira, se enfrenta al enigm\xE1tico
+      detective L en un duelo de inteligencias. Thriller psicol\xF3gico antes que
+      relato de acci\xF3n, plantea preguntas sobre la justicia, el poder y la moral
+      que lo han convertido en una de las obras m\xE1s recomendadas como puerta de
+      entrada al anime."
+  - sala: JoJo's Bizarre Adventure
+    titulo: JoJo's Bizarre Adventure
+    tituloOriginal: "JoJo no Kimy\u014D na B\u014Dken"
+    ficha:
+    - etiqueta: Autor
+      valor: Hirohiko Araki
+    - etiqueta: Manga
+      valor: "Desde 1987 \xB7 Weekly Sh\u014Dnen Jump y Ultra Jump"
+    - etiqueta: Anime
+      valor: David Production, desde 2012
+    texto: "Una saga que sigue a varias generaciones de la familia Joestar, cada
+      parte protagonizada por un \xABJoJo\xBB distinto en una \xE9poca y un lugar
+      diferentes. A partir de la tercera parte, Stardust Crusaders, introdujo los
+      Stands: manifestaciones del esp\xEDritu con habilidades \xFAnicas que redefinieron
+      los combates del sh\u014Dnen. Sus poses, su est\xE9tica cercana a la moda y
+      sus referencias a la m\xFAsica occidental la han convertido en una de las obras
+      m\xE1s influyentes y citadas del manga."
+  - sala: Evangelion
+    titulo: Neon Genesis Evangelion
+    tituloOriginal: Shin Seiki Evangerion
+    ficha:
+    - etiqueta: Creador
+      valor: Hideaki Anno
+    - etiqueta: Anime
+      valor: "Gainax y Tatsunoko, 1995-1996 \xB7 26 episodios"
+    - etiqueta: "Pel\xEDculas"
+      valor: "The End of Evangelion (1997) \xB7 Rebuild (2007-2021)"
+    texto: "En Tokio-3, quince a\xF1os despu\xE9s de una cat\xE1strofe global, el
+      adolescente Shinji Ikari es reclutado por la organizaci\xF3n NERV para pilotar
+      la Eva-01 contra unos seres llamados \xC1ngeles. Bajo la apariencia de una
+      serie de robots gigantes, Evangelion explora la depresi\xF3n, la soledad y
+      la dificultad de relacionarse con los dem\xE1s. Su deconstrucci\xF3n del g\xE9nero
+      mecha y su simbolismo marcaron a toda una generaci\xF3n de creadores y siguen
+      generando debate d\xE9cadas despu\xE9s."
+  - sala: "Ranma \xBD"
+    titulo: "Ranma \xBD"
+    tituloOriginal: Ranma Nibun-no-Ichi
+    ficha:
+    - etiqueta: Autora
+      valor: Rumiko Takahashi
+    - etiqueta: Manga
+      valor: "Weekly Sh\u014Dnen Sunday, 1987-1996 \xB7 38 vol\xFAmenes"
+    - etiqueta: Anime
+      valor: "Studio Deen, 1989-1992 \xB7 MAPPA, 2024"
+    texto: "Durante un entrenamiento en China, el joven artista marcial Ranma Saotome
+      cae en un manantial maldito de Jusenky\u014D: desde entonces se convierte en
+      chica al mojarse con agua fr\xEDa y recupera su forma con agua caliente. Comprometido
+      a la fuerza con Akane Tend\u014D, su vida se llena de rivales, pretendientes
+      y combates disparatados. Comedia rom\xE1ntica y de artes marciales, fue especialmente
+      popular en Latinoam\xE9rica gracias a su doblaje, y en 2024 recibi\xF3 una
+      nueva adaptaci\xF3n animada."
